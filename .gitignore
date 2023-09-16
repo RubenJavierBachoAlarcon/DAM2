@@ -21,3 +21,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/AD/mavenproject1/target/
+/AD/com.mycompany_mavenproject1_jar_1.0-SNAPSHOT/target/
+/AD/FileClaseAmpliando/target/
