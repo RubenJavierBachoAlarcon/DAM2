@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Matrix\\Matrix\\Matrix.csproj": {}
+    "C:\\Users\\javie\\Desktop\\git\\GitRepository\\DI\\Proyectos\\Matrix\\Matrix\\Matrix.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Matrix\\Matrix\\Matrix.csproj": {
+    "C:\\Users\\javie\\Desktop\\git\\GitRepository\\DI\\Proyectos\\Matrix\\Matrix\\Matrix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Matrix\\Matrix\\Matrix.csproj",
+        "projectUniqueName": "C:\\Users\\javie\\Desktop\\git\\GitRepository\\DI\\Proyectos\\Matrix\\Matrix\\Matrix.csproj",
         "projectName": "Matrix",
-        "projectPath": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Matrix\\Matrix\\Matrix.csproj",
-        "packagesPath": "C:\\Users\\DAM02-05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Matrix\\Matrix\\obj\\",
+        "projectPath": "C:\\Users\\javie\\Desktop\\git\\GitRepository\\DI\\Proyectos\\Matrix\\Matrix\\Matrix.csproj",
+        "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javie\\Desktop\\git\\GitRepository\\DI\\Proyectos\\Matrix\\Matrix\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DAM02-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

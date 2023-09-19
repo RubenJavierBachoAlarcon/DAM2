@@ -1,0 +1,11 @@
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\bin\Debug\net6.0\Matrix.deps.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\bin\Debug\net6.0\Matrix.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\bin\Debug\net6.0\Matrix.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\obj\Debug\net6.0\Matrix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\obj\Debug\net6.0\Matrix.AssemblyInfoInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\obj\Debug\net6.0\Matrix.AssemblyInfo.cs
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\obj\Debug\net6.0\Matrix.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\obj\Debug\net6.0\Matrix.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\obj\Debug\net6.0\refint\Matrix.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\obj\Debug\net6.0\Matrix.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\Matrix\Matrix\obj\Debug\net6.0\ref\Matrix.dll

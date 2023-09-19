@@ -1,0 +1,14 @@
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.exe
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.deps.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.runtimeconfig.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.AssemblyInfoInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.AssemblyInfo.cs
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\refint\MatrixDef.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.genruntimeconfig.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\ref\MatrixDef.dll
