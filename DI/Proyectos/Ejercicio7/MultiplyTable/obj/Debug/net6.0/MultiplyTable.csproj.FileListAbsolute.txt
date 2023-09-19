@@ -1,0 +1,14 @@
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\bin\Debug\net6.0\MultiplyTable.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\bin\Debug\net6.0\MultiplyTable.deps.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\bin\Debug\net6.0\MultiplyTable.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\bin\Debug\net6.0\MultiplyTable.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\bin\Debug\net6.0\MultiplyTable.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\MultiplyTable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\MultiplyTable.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\MultiplyTable.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\MultiplyTable.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\MultiplyTable.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\refint\MultiplyTable.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\MultiplyTable.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\MultiplyTable.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MultiplyTable\MultiplyTable\obj\Debug\net6.0\ref\MultiplyTable.dll
