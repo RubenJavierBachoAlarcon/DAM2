@@ -6,11 +6,12 @@ using System.Runtime.CompilerServices;
 //GenerateRandomDeathProb
 //Print
 
-class character
+class Character
 {
     public Random rand = new Random();
 
     public string name;
+    public string city;
 
     public double latitude;
     public double longitude;
@@ -18,10 +19,19 @@ class character
 
     public int age;
 
-    public character()
+    public Character(double probDeath)
     {
         this.name = generateName();
+        this.generateCity();
+        this.age = rand.Next(18, 100);
+        this.probDeath = probDeath;
     }
+
+    public Character() : this(rand.NextDouble(0, 0.7))
+    {
+       
+    }
+
     private string generateName()
     {
         string[] names = { "Michelle", "Alexander", "James", "Caroline", "Claire", "Jessica", "Erik", "Mike" };
@@ -87,4 +97,5 @@ class character
             return degrees * (Math.PI / 180.0);
         }
     }
+
 }
