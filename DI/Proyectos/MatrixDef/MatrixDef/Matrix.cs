@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -11,7 +12,7 @@ namespace Matrix
     {
         public Random rand = new Random();
 
-        public Character[] chars;
+        public ArrayList chars;
         public Character[,] matrixChar;
         public int longMatrix;
         public char[,] matrix;
@@ -23,13 +24,13 @@ namespace Matrix
             this.longMatrix = longMatrix;
             matrix = new char[longMatrix, longMatrix];
             matrixChar = new Character[longMatrix, longMatrix];
-            chars = new Character[200];
+            chars = new ArrayList();
             neo = new Neo();
             smith = new Smith();
 
             for (int i = 0; i < 200; i++)
             {
-                chars[i] = new Character();
+                chars.Add(new Character()); 
             }
 
             for (int i = 0; i < longMatrix; i++)
@@ -60,24 +61,25 @@ namespace Matrix
                 neo.y = rand.Next(longMatrix);
             }
 
-            for (int i = 0; i < matrix.Length; i++)
+            for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                for (int j = 0; j < matrix.Length; j++)
+                for (int j = 0; j < matrix.GetLength(1); j++)
                 {
                     if (smith.x == i && smith.y == j)
                     {
                         matrix[i, j] = 'S';
                     }
 
-                    if (neo.x == i && neo.y == j)
+                    else if (neo.x == i && neo.y == j)
                     {
                         matrix[i, j] = 'N';
                     }
 
                     else
                     {
-                        matrix[i, j] = 'C';
-                        matrixChar[i, j] = new Character();
+                        matrix[i, j] = 'c';
+                        matrixChar[i, j] = (Character) (chars[chars.Count - 1]);
+                        chars.RemoveAt(chars.Count - 1);
                         matrixChar[i, j].x = i;
                         matrixChar[i, j].y = j;
                     }
@@ -95,6 +97,11 @@ namespace Matrix
                 }
                 Console.WriteLine();
             }
+        }
+
+        public void charActs()
+        {
+
         }
     }
 }
