@@ -30,7 +30,7 @@ namespace Matrix
 
             for (int i = 0; i < 200; i++)
             {
-                chars.Add(new Character()); 
+                chars.Add(new Character());
             }
 
             for (int i = 0; i < longMatrix; i++)
@@ -68,21 +68,24 @@ namespace Matrix
                     if (smith.x == i && smith.y == j)
                     {
                         matrix[i, j] = 'S';
+                        matrixChar[i, j] = smith;
                     }
 
                     else if (neo.x == i && neo.y == j)
                     {
                         matrix[i, j] = 'N';
+                        matrixChar[i, j] = neo;
                     }
 
                     else
                     {
                         matrix[i, j] = 'c';
-                        matrixChar[i, j] = (Character) (chars[chars.Count - 1]);
+                        matrixChar[i, j] = (Character)(chars[chars.Count - 1]);
                         chars.RemoveAt(chars.Count - 1);
                         matrixChar[i, j].x = i;
                         matrixChar[i, j].y = j;
                     }
+
                 }
             }
         }
@@ -93,7 +96,7 @@ namespace Matrix
             {
                 for (int j = 0; j < longMatrix; j++)
                 {
-                    Console.Write(matrix[i, j]);
+                    Console.Write(matrix[i, j] + " ");
                 }
                 Console.WriteLine();
             }
@@ -101,7 +104,26 @@ namespace Matrix
 
         public void charActs()
         {
-
+            Console.WriteLine(matrixChar.Length);
+            for (int i = 0; i < matrixChar.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrixChar.GetLength(1); j++)
+                {
+                    if (matrixChar[i, j].probDeath != 0)
+                    {
+                        if (matrixChar[i, j].probDeath > 0.7)
+                        {
+                            matrixChar[i, j] = (Character)(chars[chars.Count - 1]);
+                            chars.RemoveAt(chars.Count - 1);
+                        }
+                        else
+                        {
+                            matrixChar[i, j].probDeath += 0.1;
+                        }
+                        
+                    }
+                }
+            }
         }
     }
 }

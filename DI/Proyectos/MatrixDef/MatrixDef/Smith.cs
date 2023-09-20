@@ -9,6 +9,7 @@ namespace Matrix
         public Smith(int capInfect)
         {
             this.capInfect = capInfect;
+            base.probDeath = 0;
         }
 
         public Smith() : this(5)

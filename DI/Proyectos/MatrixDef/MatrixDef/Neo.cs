@@ -9,6 +9,7 @@ namespace Matrix
 
         public Neo()
         {
+            base.probDeath = 0;
         }
 
         private void setRandomIsChossen()
