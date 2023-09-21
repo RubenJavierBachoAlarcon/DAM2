@@ -5,7 +5,6 @@ package com.mycompany.filereaderejemplo1;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.EOFException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -20,11 +19,7 @@ import java.util.logging.Logger;
  */
 public class FileReaderEjemplo1 {
 
-    public static void main(String[] args) {
-        FileReaderEjemplo1.File5Desencripta("./ejemploCripted.txt", "./ejemplo.txt");
-    }
-
-    private static void leeFicheroCaracter(String ruta) {
+    public static void leeFicheroCaracter(String ruta) {
         try {
             FileReader fr = new FileReader(new File(ruta));
             int i = 0;
@@ -73,7 +68,7 @@ public class FileReaderEjemplo1 {
         }
     }
 
-    private static void File2Lectura(String ruta) {
+    public static void File3Lectura(String ruta) {
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(ruta));
@@ -151,41 +146,41 @@ public class FileReaderEjemplo1 {
             BufferedReader original = new BufferedReader(new FileReader(rutaOriginal));
             BufferedWriter encripted = new BufferedWriter(new FileWriter(rutaEncripted));
             int car;
-            while ((car = original.read()) != -1){
+            while ((car = original.read()) != -1) {
                 car = car + 3;
                 encripted.write((char) car);
             }
-            
+
             original.close();
             encripted.close();
-            
+
         } catch (FileNotFoundException ex) {
             Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
     }
-    
+
     private static void File5Desencripta(String rutaOriginal, String rutaDecrypted) {
 
         try {
             BufferedReader original = new BufferedReader(new FileReader(rutaOriginal));
             BufferedWriter decrypted = new BufferedWriter(new FileWriter(rutaDecrypted));
             int car;
-            while ((car = original.read()) != -1){
+            while ((car = original.read()) != -1) {
                 car = car - 3;
                 decrypted.write((char) car);
             }
-            
+
             original.close();
             decrypted.close();
-            
+
         } catch (FileNotFoundException ex) {
             Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
             Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
     }
 }
