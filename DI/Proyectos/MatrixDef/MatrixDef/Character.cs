@@ -32,7 +32,19 @@ namespace Matrix
 
         }
 
-        
+        public Character(Character original)
+        {
+            this.probDeath = original.probDeath;
+            this.name = original.name;
+            this.city = original.city;
+            this.latitude = original.latitude;
+            this.longitude = original.longitude;
+            this.x = original.x;
+            this.y = original.y;
+            this.age = original.age;
+        }
+
+
         private string generateName()
         {
             string[] names = { "Michelle", "Alexander", "James", "Caroline", "Claire", "Jessica", "Erik", "Mike" };

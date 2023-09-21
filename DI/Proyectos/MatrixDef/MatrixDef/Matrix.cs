@@ -12,6 +12,7 @@ namespace Matrix
     {
         public Random rand = new Random();
 
+        public int numInfected = 0;
         public ArrayList chars;
         public Character[,] matrixChar;
         public int longMatrix;
@@ -109,18 +110,21 @@ namespace Matrix
             {
                 for (int j = 0; j < matrixChar.GetLength(1); j++)
                 {
-                    if (matrixChar[i, j].probDeath != 0)
+                    if (matrixChar[i, j] != null)
                     {
-                        if (matrixChar[i, j].probDeath > 0.7)
+                        if (matrixChar[i, j].probDeath != 0 && matrixChar[i, j].probDeath != null)
                         {
-                            matrixChar[i, j] = (Character)(chars[chars.Count - 1]);
-                            chars.RemoveAt(chars.Count - 1);
-                        }
-                        else
-                        {
-                            matrixChar[i, j].probDeath += 0.1;
-                        }
+                            if (matrixChar[i, j].probDeath > 0.7)
+                            {
+                                matrixChar[i, j] = (Character)(chars[chars.Count - 1]);
+                                chars.RemoveAt(chars.Count - 1);
+                            }
+                            else
+                            {
+                                matrixChar[i, j].probDeath += 0.1;
+                            }
 
+                        }
                     }
                 }
             }
@@ -128,35 +132,49 @@ namespace Matrix
 
         public void smithActs()
         {
-            smithActsRecursive(smith.x, smith.y);
+            numInfected = 0;
+            smith.capInfect = rand.Next(1, smith.maxCapInfect);
+            smithActsRecursive(smith.x, smith.y, numInfected);
         }
 
-        public void smithActsRecursive(int x, int y)
+        public void smithActsRecursive(int x, int y, int numInfected)
         {
+            Boolean foundPath = false;
+
             int minDistance;
             int smithDistance;
             if (((x - y) % 2 == 0 && (neo.x - neo.y) % 2 == 0) || ((x - y) % 2 != 0 && (neo.x - neo.y) % 2 != 0))
             {
-                for (int i = -1; i <= 1; i++)
+                for (int i = -1; i <= 1 && !foundPath && numInfected < smith.capInfect; i++)
                 {
-                    for (int j = -1; j <= 1; j++)
+                    for (int j = -1; j <= 1 && !foundPath && numInfected < smith.capInfect; j++)
                     {
-                        if (i != 0 || j != 0)
+                        if (i != 0 && j != 0)
                         {
-                            if ((x + i) >= 0 && (x + i) < matrixChar.GetLength(0) || (y + j) >= 0 && (y + j) < matrixChar.GetLength(1))
+                            if ((x + i) >= 0 && (x + i) < matrixChar.GetLength(0) && (y + j) >= 0 && (y + j) < matrixChar.GetLength(1))
                             {
                                 minDistance = Math.Max(Math.Abs(x + i - neo.x), Math.Abs(y + j - neo.y));
                                 smithDistance = Math.Max(Math.Abs(x - neo.x), Math.Abs(y - neo.y));
 
                                 if (minDistance < smithDistance)
                                 {
-                                    if (x + i == neo.x && y + j == neo.y)
+                                    if (minDistance == 0)
                                     {
                                         break;
                                     }
                                     else
                                     {
-                                        smithActsRecursive(x + i, y + j);
+                                        if (matrixChar[x + i, y + j] != null)
+                                        {
+                                            matrixChar[x + i, y + j] = null;
+                                            matrix[x + i, y + j] = '-';
+                                            numInfected++;
+                                            Console.WriteLine("La capacidad de infectar es: " + smith.capInfect);
+                                            Console.WriteLine("numero de infectados:" + numInfected);
+                                            foundPath = true;
+                                        }
+                                        Console.WriteLine(smith.capInfect);
+                                        smithActsRecursive(x + i, y + j, numInfected);
                                     }
                                 }
                             }
@@ -165,5 +183,75 @@ namespace Matrix
                 }
             }
         }
+
+        public void neoActs()
+        {
+            neo.setRandomIsChossen();
+            Console.WriteLine(neo.isChossen);
+            if (neo.isChossen)
+            {
+                Console.WriteLine("Elegido");
+                for (int i = -1; i <= 1; i++)
+                {
+                    for (int j = -1; j <= 1; j++)
+                    {
+                        if ((neo.x + i) >= 0 && (neo.x + i) < matrixChar.GetLength(0) && (neo.y + j) >= 0 && (neo.y + j) < matrixChar.GetLength(1))
+                        {
+                            if (matrixChar[neo.x + i, neo.y + j] != null)
+                            {
+                                matrixChar[neo.x + i, neo.y + j] = (Character)(chars[chars.Count - 1]);
+                                chars.RemoveAt(chars.Count - 1);
+                            }
+                        }
+                    }
+                }
+            }
+
+            int randomX = rand.Next(matrixChar.GetLength(0));
+            int randomY = rand.Next(matrixChar.GetLength(1));
+
+
+            if (matrixChar[randomX, randomY] == null)
+            {
+                matrix[randomX, randomY] = 'N';
+                matrix[neo.x, neo.y] = '-';
+                matrixChar[randomX, randomY] = neo;
+                matrixChar[neo.x, neo.y] = null;
+                neo.x = randomX;
+                neo.y = randomY;
+
+            }
+            else if (matrixChar[randomX, randomY] is Smith smith)
+            {
+                SwapCharacters(neo, smith);
+            }
+            else
+            {
+                matrix[randomX, randomY] = 'N';
+                matrix[neo.x, neo.y] = 'c';
+                Character aux = new Character(matrixChar[randomX, randomY]);
+                matrixChar[randomX, randomY] = neo;
+                matrixChar[neo.x, neo.y] = aux;
+                matrixChar[randomX, randomY].x = neo.x;
+                matrixChar[randomX, randomY].y = neo.y;
+                neo.x = randomX;
+                neo.y = randomY;
+            }
+        }
+        private void SwapCharacters(Character character1, Character character2)
+        {
+            // Intercambiar posiciones
+            int tempX = character1.x;
+            int tempY = character1.y;
+            character1.x = character2.x;
+            character1.y = character2.y;
+            character2.x = tempX;
+            character2.y = tempY;
+
+            // Actualizar matriz de personajes
+            matrixChar[character1.x, character1.y] = character1;
+            matrixChar[character2.x, character2.y] = character2;
+        }
     }
+
 }

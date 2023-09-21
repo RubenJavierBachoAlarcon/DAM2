@@ -4,16 +4,23 @@ namespace Matrix
 {
     public class Smith : Character
     {
-        private int capInfect;
+        Random rand = new Random();
+        public int capInfect;
+        public int maxCapInfect;
 
-        public Smith(int capInfect)
+        public Smith(int maxCapInfect)
         {
-            this.capInfect = capInfect;
+            this.maxCapInfect = maxCapInfect;
             base.probDeath = 0;
         }
 
         public Smith() : this(5)
         {
+        }
+
+        public Smith(Smith smith)
+        {
+
         }
     }
 }

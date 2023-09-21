@@ -12,9 +12,15 @@ namespace Matrix
             base.probDeath = 0;
         }
 
-        private void setRandomIsChossen()
+        public Neo(Neo original)
         {
-            int random = (int)rand.NextInt64();
+            // Copiar las propiedades del objeto original
+
+        }
+
+        public void setRandomIsChossen()
+        {
+            int random = rand.Next(2);
             if (random == 0)
             {
                 isChossen = true;
@@ -25,7 +31,7 @@ namespace Matrix
             }
         }
 
-        private bool getIsChossen()
+        public bool getIsChossen()
         {
             return isChossen;
         }
