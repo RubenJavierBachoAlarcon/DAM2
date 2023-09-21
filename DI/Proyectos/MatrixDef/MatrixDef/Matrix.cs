@@ -120,7 +120,47 @@ namespace Matrix
                         {
                             matrixChar[i, j].probDeath += 0.1;
                         }
-                        
+
+                    }
+                }
+            }
+        }
+
+        public void smithActs()
+        {
+            smithActsRecursive(smith.x, smith.y);
+        }
+
+        public void smithActsRecursive(int x, int y)
+        {
+            int minDistance;
+            int smithDistance;
+            if (((x - y) % 2 == 0 && (neo.x - neo.y) % 2 == 0) || ((x - y) % 2 != 0 && (neo.x - neo.y) % 2 != 0))
+            {
+                for (int i = -1; i <= 1; i++)
+                {
+                    for (int j = -1; j <= 1; j++)
+                    {
+                        if (i != 0 || j != 0)
+                        {
+                            if ((x + i) >= 0 && (x + i) < matrixChar.GetLength(0) || (y + j) >= 0 && (y + j) < matrixChar.GetLength(1))
+                            {
+                                minDistance = Math.Max(Math.Abs(x + i - neo.x), Math.Abs(y + j - neo.y));
+                                smithDistance = Math.Max(Math.Abs(x - neo.x), Math.Abs(y - neo.y));
+
+                                if (minDistance < smithDistance)
+                                {
+                                    if (x + i == neo.x && y + j == neo.y)
+                                    {
+                                        break;
+                                    }
+                                    else
+                                    {
+                                        smithActsRecursive(x + i, y + j);
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
