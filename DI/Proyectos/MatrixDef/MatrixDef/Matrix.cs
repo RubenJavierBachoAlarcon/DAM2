@@ -197,10 +197,12 @@ namespace Matrix
                     {
                         if ((neo.x + i) >= 0 && (neo.x + i) < matrixChar.GetLength(0) && (neo.y + j) >= 0 && (neo.y + j) < matrixChar.GetLength(1))
                         {
-                            if (matrixChar[neo.x + i, neo.y + j] != null)
+                            if (matrixChar[neo.x + i, neo.y + j] == null)
                             {
                                 matrixChar[neo.x + i, neo.y + j] = (Character)(chars[chars.Count - 1]);
                                 chars.RemoveAt(chars.Count - 1);
+                                Console.WriteLine("Character aniadido en " + (neo.x + i) + " " + (neo.y + j));
+                                matrix[neo.x + i, neo.y + j] = 'c';
                             }
                         }
                     }
@@ -223,7 +225,20 @@ namespace Matrix
             }
             else if (matrixChar[randomX, randomY] is Smith smith)
             {
-                SwapCharacters(neo, smith);
+                matrix[neo.x, neo.y] = 'S';
+                matrix[smith.x, smith.y] = 'N';
+
+                int tempX = neo.x;
+                int tempY = neo.y;
+                neo.x = smith.x;
+                neo.y = smith.y;
+                smith.x = tempX;
+                smith.y = tempY;
+
+                matrixChar[neo.x, neo.y] = neo;
+                matrixChar[smith.x, smith.y] = smith;
+
+
             }
             else
             {
@@ -238,20 +253,7 @@ namespace Matrix
                 neo.y = randomY;
             }
         }
-        private void SwapCharacters(Character character1, Character character2)
-        {
-            // Intercambiar posiciones
-            int tempX = character1.x;
-            int tempY = character1.y;
-            character1.x = character2.x;
-            character1.y = character2.y;
-            character2.x = tempX;
-            character2.y = tempY;
-
-            // Actualizar matriz de personajes
-            matrixChar[character1.x, character1.y] = character1;
-            matrixChar[character2.x, character2.y] = character2;
-        }
+        
     }
 
 }

@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         // Crear una matriz de 7x7
-        Matrix.Matrix matrix = new Matrix.Matrix();
+        Matrix.Matrix matrix = new Matrix.Matrix(11);
 
         // Llenar la matriz y colocar personajes iniciales (Neo y Smith)
         matrix.fillMatrix();
@@ -33,13 +33,13 @@ class Program
             // Evaluar la probabilidad de muerte y reemplazar personajes
             matrix.charActs();
 
-            if (seconds % 2 == 0)
+            if (seconds % 1 == 0)
             {
                 // Smith actúa cada dos segundos
                 matrix.smithActs();
             }
 
-            if (seconds % 5 == 0)
+            if (seconds % 1 == 0)
             {
                 // Neo actúa cada cinco segundos
                 matrix.neoActs();
@@ -56,7 +56,7 @@ class Program
             }
 
             // Pausa de un segundo (1000 milisegundos)
-            Thread.Sleep(1000);
+            
         }
 
         // Imprimir la cantidad de personajes restantes al final de la simulación

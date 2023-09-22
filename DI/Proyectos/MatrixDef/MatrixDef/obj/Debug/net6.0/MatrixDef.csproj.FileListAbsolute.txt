@@ -26,3 +26,17 @@ C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net
 C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.pdb
 C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.genruntimeconfig.cache
 C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\ref\MatrixDef.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.deps.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\bin\Debug\net6.0\MatrixDef.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\refint\MatrixDef.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\MatrixDef.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\MatrixDef\MatrixDef\obj\Debug\net6.0\ref\MatrixDef.dll
