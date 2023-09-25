@@ -105,7 +105,6 @@ namespace Matrix
 
         public void charActs()
         {
-            Console.WriteLine(matrixChar.Length);
             for (int i = 0; i < matrixChar.GetLength(0); i++)
             {
                 for (int j = 0; j < matrixChar.GetLength(1); j++)
