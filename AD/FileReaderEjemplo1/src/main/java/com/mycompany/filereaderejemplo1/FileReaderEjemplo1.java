@@ -5,8 +5,13 @@ package com.mycompany.filereaderejemplo1;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.EOFException;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -182,5 +187,52 @@ public class FileReaderEjemplo1 {
             Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+    }
+
+    public static void File3EscrituraBytesArrays(String fileName) {
+        // Definir los arrays con nombres y números de teléfono
+        String[] array1 = {"Juan", "María", "Pedro"};
+        String[] array2 = {"123456789", "987654321", "555555555"};
+
+        // Crear un objeto DataOutputStream
+        try (DataOutputStream dos = new DataOutputStream(new FileOutputStream(fileName))) {
+            // Escribir nombre y teléfono para cada elemento del array
+            for (int i = 0; i < array1.length; i++) {
+                dos.writeUTF(array1[i]);
+                dos.writeUTF(array2[i]);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void File4LecturaBytesArrays(String fileName) {
+        try {
+
+            DataInputStream dis = new DataInputStream(new FileInputStream(fileName));
+            while (dis.available() > 0) {
+
+                String name = dis.readUTF();
+                String phoneNumber = dis.readUTF();
+                System.out.println("Nombre: " + name + ", Teléfono: " + phoneNumber);
+            }
+            dis.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void File1CopiaArchivos(String fileNameOrigin, String fileNameEnd) {
+        try (DataInputStream dis = new DataInputStream(new FileInputStream(fileNameOrigin)); 
+                DataOutputStream dos = new DataOutputStream(new FileOutputStream(fileNameEnd))) {
+            while (dis.available() > 0) {
+                byte b = dis.readByte();
+                dos.write(b);
+            }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 }

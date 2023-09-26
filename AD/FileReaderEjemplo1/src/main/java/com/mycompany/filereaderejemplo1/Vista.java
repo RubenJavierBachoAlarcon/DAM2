@@ -23,6 +23,7 @@ public class Vista {
         jfc.showOpenDialog(jfc);
         String path = jfc.getSelectedFile().getAbsolutePath();
         System.out.println(path);
-        FileReaderEjemplo1.File3Lectura(path);
+        FileReaderEjemplo1.File1CopiaArchivos(path, "destino.txt");
+        
     }
 }
