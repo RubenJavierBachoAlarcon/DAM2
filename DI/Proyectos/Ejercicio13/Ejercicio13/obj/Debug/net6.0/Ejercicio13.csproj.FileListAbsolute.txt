@@ -1,0 +1,14 @@
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\bin\Debug\net6.0\Ejercicio13.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\bin\Debug\net6.0\Ejercicio13.deps.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\bin\Debug\net6.0\Ejercicio13.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\bin\Debug\net6.0\Ejercicio13.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\bin\Debug\net6.0\Ejercicio13.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\Ejercicio13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\Ejercicio13.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\Ejercicio13.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\Ejercicio13.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\Ejercicio13.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\refint\Ejercicio13.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\Ejercicio13.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\Ejercicio13.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio13\Ejercicio13\obj\Debug\net6.0\ref\Ejercicio13.dll
