@@ -12,10 +12,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
         android:ems="10"
         android:hint="Cost of Service"
         android:inputType="numberDecimal"
         android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -26,22 +28,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginBottom="269dp"
         android:text="How was the service?"
+        app:layout_constraintBottom_toTopOf="@+id/switch1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
         tools:ignore="MissingConstraints" />
 
     <RadioGroup
         android:id="@+id/tip_options"
-        android:layout_width="178dp"
-        android:layout_height="218dp"
+        android:layout_width="181dp"
+        android:layout_height="216dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginBottom="300dp"
         android:checkedButton="@id/option_twenty_percent"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints">
 
 
@@ -85,36 +88,42 @@
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="365dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
         android:checked="true"
         android:text="Round up tip?"
+        app:layout_constraintBottom_toTopOf="@+id/buttonCalculate"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="343dp"
-        android:layout_height="86dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="418dp"
+        android:id="@+id/buttonCalculate"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="134dp"
         android:text="Calculate"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
         android:layout_centerInParent="true"
-        android:layout_margin="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="72dp"
+        android:text="TextView"
         android:textSize="22sp"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="528dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalculate"
         tools:ignore="MissingConstraints" />
 
 
