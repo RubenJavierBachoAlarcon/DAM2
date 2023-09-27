@@ -15,6 +15,7 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -223,12 +224,67 @@ public class FileReaderEjemplo1 {
     }
 
     public static void File1CopiaArchivos(String fileNameOrigin, String fileNameEnd) {
-        try (DataInputStream dis = new DataInputStream(new FileInputStream(fileNameOrigin)); 
-                DataOutputStream dos = new DataOutputStream(new FileOutputStream(fileNameEnd))) {
+        try (DataInputStream dis = new DataInputStream(new FileInputStream(fileNameOrigin)); DataOutputStream dos = new DataOutputStream(new FileOutputStream(fileNameEnd))) {
             while (dis.available() > 0) {
                 byte b = dis.readByte();
                 dos.write(b);
             }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    public static void copiarArchivoEncriptando(String fileNameOrigin, String fileNameEnd) {
+        try (DataInputStream dis = new DataInputStream(new FileInputStream(fileNameOrigin)); DataOutputStream dos = new DataOutputStream(new FileOutputStream(fileNameEnd))) {
+            while (dis.available() > 0) {
+                byte b = dis.readByte();
+                dos.write(b);
+            }
+            FileReaderEjemplo1.File4Encripta(fileNameEnd, "encriptado.exe");
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    public static void escribirFichero(String fileName) {
+        try {
+            RandomAccessFile fichero = new RandomAccessFile(fileName, "rw");
+            fichero.writeInt(33);
+            StringBuffer buffer = null;
+            buffer = new StringBuffer("GARCIA");
+            buffer.setLength(10);
+            fichero.writeChars(buffer.toString());
+            fichero.writeDouble(1000.33);
+            fichero.close();
+
+        } catch (IOException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    public static void leerFichero(String fileName) {
+        try {
+            RandomAccessFile fichero = new RandomAccessFile(fileName, "rw");
+            while (fichero.getFilePointer() < fichero.length()){
+                if (fichero.getFilePointer() <= 2){
+                    System.out.println(fichero.readInt());
+                }
+                if (fichero.getFilePointer() > 2 && fichero.getFilePointer() <= 10){
+                    System.out.println("asdasdasd");
+                    System.out.println((char)fichero.readInt());
+                }
+                System.out.println(fichero.getFilePointer());
+                
+                
+                
+            }
+            
+            
+            fichero.close();
         } catch (FileNotFoundException ex) {
             Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
