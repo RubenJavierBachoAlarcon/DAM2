@@ -23,7 +23,13 @@ public class Vista {
         jfc.showOpenDialog(jfc);
         String path = jfc.getSelectedFile().getAbsolutePath();
         System.out.println(path);
-        FileReaderEjemplo1.leerFichero(path);
+        FileReaderEjemplo1.lecturaPasandoID(path, 2);
+        FileReaderEjemplo1.File1BorraRegistros(path, 2);
+        FileReaderEjemplo1.lecturaPasandoID(path, 2);
+        FileReaderEjemplo1.File1RecuperaRegistros(path, 2);
+        FileReaderEjemplo1.lecturaPasandoID(path, 2);
+        
+        
         
     }
 }

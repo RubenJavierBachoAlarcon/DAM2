@@ -253,12 +253,29 @@ public class FileReaderEjemplo1 {
     public static void escribirFichero(String fileName) {
         try {
             RandomAccessFile fichero = new RandomAccessFile(fileName, "rw");
-            fichero.writeInt(33);
-            StringBuffer buffer = null;
-            buffer = new StringBuffer("GARCIA");
-            buffer.setLength(10);
-            fichero.writeChars(buffer.toString());
+            fichero.writeInt(1);
+            StringBuffer buffer1 = null;
+            buffer1 = new StringBuffer("GARCIA");
+            buffer1.setLength(10);
+            fichero.writeChars(buffer1.toString());
             fichero.writeDouble(1000.33);
+
+            fichero.writeInt(2);
+            StringBuffer buffer2 = null;
+            buffer2 = new StringBuffer("PEPE");
+            buffer2.setLength(10);
+            fichero.writeChars(buffer2.toString());
+            fichero.writeDouble(1000.33);
+            
+
+            fichero.writeInt(2);
+            buffer2 = null;
+            buffer2 = new StringBuffer("ALBERTO");
+            buffer2.setLength(10);
+            fichero.writeChars(buffer2.toString());
+            fichero.writeDouble(1000.33);
+           
+
             fichero.close();
 
         } catch (IOException ex) {
@@ -267,23 +284,17 @@ public class FileReaderEjemplo1 {
     }
 
     public static void leerFichero(String fileName) {
+        int pos = 1;
         try {
             RandomAccessFile fichero = new RandomAccessFile(fileName, "rw");
-            while (fichero.getFilePointer() < fichero.length()){
-                if (fichero.getFilePointer() <= 2){
-                    System.out.println(fichero.readInt());
+            while (fichero.getFilePointer() < fichero.length()) {
+                System.out.println(fichero.read());
+                for (int i = 0; i < 10; i++) {
+                    System.out.print((char) fichero.read());
                 }
-                if (fichero.getFilePointer() > 2 && fichero.getFilePointer() <= 10){
-                    System.out.println("asdasdasd");
-                    System.out.println((char)fichero.readInt());
-                }
-                System.out.println(fichero.getFilePointer());
-                
-                
-                
+
             }
-            
-            
+
             fichero.close();
         } catch (FileNotFoundException ex) {
             Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
@@ -291,4 +302,71 @@ public class FileReaderEjemplo1 {
             Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+
+    public static void lecturaPasandoID(String fileName, int id) {
+        int bit = ((id * 32) - 32);
+        try {
+
+            RandomAccessFile fichero = new RandomAccessFile(fileName, "rw");
+            System.out.println(fichero.length());
+            fichero.seek(bit);
+            System.out.println(fichero.readInt());
+            
+            
+            for (int i = 0; i < 20; i++) {
+                System.out.print((char) fichero.read());
+            }
+
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    public static void modificarPasandoID(String fileName, int id) {
+        int bit = ((id * 32) - 32);
+        try {
+
+            RandomAccessFile fichero = new RandomAccessFile(fileName, "rw");
+            fichero.seek(bit);
+            System.out.println(fichero.readInt());
+            StringBuffer buffer2 = new StringBuffer("STEAVEN");
+            buffer2.setLength(10);
+            fichero.writeChars(buffer2.toString());
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    public static void File1BorraRegistros(String fileName, int id) {
+        int bit = ((id * 32) - 32);
+        try {
+
+            RandomAccessFile fichero = new RandomAccessFile(fileName, "rw");
+            fichero.seek(bit);
+            fichero.writeInt(-1);
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+    
+    public static void File1RecuperaRegistros(String fileName, int id) {
+        int bit = ((id * 32) - 32);
+        try {
+
+            RandomAccessFile fichero = new RandomAccessFile(fileName, "rw");
+            fichero.seek(bit);
+            fichero.writeInt(id);
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(FileReaderEjemplo1.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
 }
