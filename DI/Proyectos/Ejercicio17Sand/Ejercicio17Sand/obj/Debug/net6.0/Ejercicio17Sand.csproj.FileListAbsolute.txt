@@ -1,0 +1,14 @@
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\bin\Debug\net6.0\Ejercicio17Sand.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\bin\Debug\net6.0\Ejercicio17Sand.deps.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\bin\Debug\net6.0\Ejercicio17Sand.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\bin\Debug\net6.0\Ejercicio17Sand.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\bin\Debug\net6.0\Ejercicio17Sand.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\Ejercicio17Sand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\Ejercicio17Sand.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\Ejercicio17Sand.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\Ejercicio17Sand.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\Ejercicio17Sand.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\refint\Ejercicio17Sand.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\Ejercicio17Sand.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\Ejercicio17Sand.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Sand\Ejercicio17Sand\obj\Debug\net6.0\ref\Ejercicio17Sand.dll

@@ -1,0 +1,14 @@
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\bin\Debug\net6.0\Ejercicio17Z.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\bin\Debug\net6.0\Ejercicio17Z.deps.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\bin\Debug\net6.0\Ejercicio17Z.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\bin\Debug\net6.0\Ejercicio17Z.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\bin\Debug\net6.0\Ejercicio17Z.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\Ejercicio17Z.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\Ejercicio17Z.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\Ejercicio17Z.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\Ejercicio17Z.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\Ejercicio17Z.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\refint\Ejercicio17Z.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\Ejercicio17Z.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\Ejercicio17Z.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17Z\Ejercicio17Z\obj\Debug\net6.0\ref\Ejercicio17Z.dll

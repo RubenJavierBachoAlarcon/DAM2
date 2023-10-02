@@ -1,0 +1,14 @@
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\bin\Debug\net6.0\Ejercicio17ZInverse.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\bin\Debug\net6.0\Ejercicio17ZInverse.deps.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\bin\Debug\net6.0\Ejercicio17ZInverse.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\bin\Debug\net6.0\Ejercicio17ZInverse.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\bin\Debug\net6.0\Ejercicio17ZInverse.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\Ejercicio17ZInverse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\Ejercicio17ZInverse.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\Ejercicio17ZInverse.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\Ejercicio17ZInverse.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\Ejercicio17ZInverse.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\refint\Ejercicio17ZInverse.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\Ejercicio17ZInverse.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\Ejercicio17ZInverse.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17ZInverse\Ejercicio17ZInverse\obj\Debug\net6.0\ref\Ejercicio17ZInverse.dll

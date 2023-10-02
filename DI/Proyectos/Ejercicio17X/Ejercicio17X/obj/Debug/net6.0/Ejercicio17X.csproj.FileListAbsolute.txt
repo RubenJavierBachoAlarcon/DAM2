@@ -1,0 +1,14 @@
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\bin\Debug\net6.0\Ejercicio17X.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\bin\Debug\net6.0\Ejercicio17X.deps.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\bin\Debug\net6.0\Ejercicio17X.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\bin\Debug\net6.0\Ejercicio17X.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\bin\Debug\net6.0\Ejercicio17X.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\Ejercicio17X.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\Ejercicio17X.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\Ejercicio17X.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\Ejercicio17X.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\Ejercicio17X.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\refint\Ejercicio17X.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\Ejercicio17X.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\Ejercicio17X.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17X\Ejercicio17X\obj\Debug\net6.0\ref\Ejercicio17X.dll

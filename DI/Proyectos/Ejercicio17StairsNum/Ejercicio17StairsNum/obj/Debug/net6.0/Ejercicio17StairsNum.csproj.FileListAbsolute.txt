@@ -1,0 +1,14 @@
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\bin\Debug\net6.0\Ejercicio17StairsNum.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\bin\Debug\net6.0\Ejercicio17StairsNum.deps.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\bin\Debug\net6.0\Ejercicio17StairsNum.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\bin\Debug\net6.0\Ejercicio17StairsNum.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\bin\Debug\net6.0\Ejercicio17StairsNum.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\Ejercicio17StairsNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\Ejercicio17StairsNum.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\Ejercicio17StairsNum.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\Ejercicio17StairsNum.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\Ejercicio17StairsNum.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\refint\Ejercicio17StairsNum.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\Ejercicio17StairsNum.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\Ejercicio17StairsNum.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Ejercicio17StairsNum\Ejercicio17StairsNum\obj\Debug\net6.0\ref\Ejercicio17StairsNum.dll

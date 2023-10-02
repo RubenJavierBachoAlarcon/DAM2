@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ejercicio17StairsNum/1.0.0": {
+        "runtime": {
+          "Ejercicio17StairsNum.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio17StairsNum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

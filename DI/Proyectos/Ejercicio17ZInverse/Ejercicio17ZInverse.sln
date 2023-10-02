@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio17ZInverse", "Ejercicio17ZInverse\Ejercicio17ZInverse.csproj", "{54F34AC6-7C97-453E-9526-C9CA0260B1CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54F34AC6-7C97-453E-9526-C9CA0260B1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F34AC6-7C97-453E-9526-C9CA0260B1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F34AC6-7C97-453E-9526-C9CA0260B1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F34AC6-7C97-453E-9526-C9CA0260B1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {333E1583-C96F-4B4D-83A1-5038FFEC8BB3}
+	EndGlobalSection
+EndGlobal
