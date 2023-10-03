@@ -1,0 +1,14 @@
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\bin\Debug\net6.0\17RecPiramidNum.exe
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\bin\Debug\net6.0\17RecPiramidNum.deps.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\bin\Debug\net6.0\17RecPiramidNum.runtimeconfig.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\bin\Debug\net6.0\17RecPiramidNum.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\bin\Debug\net6.0\17RecPiramidNum.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\17RecPiramidNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\17RecPiramidNum.AssemblyInfoInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\17RecPiramidNum.AssemblyInfo.cs
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\17RecPiramidNum.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\17RecPiramidNum.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\refint\17RecPiramidNum.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\17RecPiramidNum.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\17RecPiramidNum.genruntimeconfig.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17RecPiramidNum\17RecPiramidNum\obj\Debug\net6.0\ref\17RecPiramidNum.dll

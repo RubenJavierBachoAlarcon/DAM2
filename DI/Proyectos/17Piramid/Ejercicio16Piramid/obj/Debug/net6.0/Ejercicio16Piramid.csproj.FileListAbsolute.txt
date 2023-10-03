@@ -26,3 +26,17 @@ C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\Ejercicio16Piramid\Ejercicio16Pirami
 C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\Ejercicio16Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.pdb
 C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\Ejercicio16Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.genruntimeconfig.cache
 C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\Ejercicio16Piramid\Ejercicio16Piramid\obj\Debug\net6.0\ref\Ejercicio16Piramid.dll
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\bin\Debug\net6.0\Ejercicio16Piramid.exe
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\bin\Debug\net6.0\Ejercicio16Piramid.deps.json
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\bin\Debug\net6.0\Ejercicio16Piramid.runtimeconfig.json
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\bin\Debug\net6.0\Ejercicio16Piramid.dll
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\bin\Debug\net6.0\Ejercicio16Piramid.pdb
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.AssemblyInfoInputs.cache
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.AssemblyInfo.cs
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.dll
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\refint\Ejercicio16Piramid.dll
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.pdb
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\Ejercicio16Piramid.genruntimeconfig.cache
+C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\17Piramid\Ejercicio16Piramid\obj\Debug\net6.0\ref\Ejercicio16Piramid.dll

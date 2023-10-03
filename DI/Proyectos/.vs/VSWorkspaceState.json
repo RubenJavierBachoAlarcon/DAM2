@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MatrixDef",
+    "\\MatrixDef\\MatrixDef"
   ],
+  "SelectedNode": "\\MatrixDef\\MatrixDef\\Matrix.cs",
   "PreviewInSolutionExplorer": false
 }

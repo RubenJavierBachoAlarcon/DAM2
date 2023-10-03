@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj": {}
+    "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj": {
+    "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj",
+        "projectUniqueName": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj",
         "projectName": "MatrixDef",
-        "projectPath": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj",
-        "packagesPath": "C:\\Users\\DAM02-05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\obj\\",
+        "projectPath": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj",
+        "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DAM02-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

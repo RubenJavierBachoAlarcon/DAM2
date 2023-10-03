@@ -1,0 +1,14 @@
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\bin\Debug\net6.0\17PiramidNum.exe
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\bin\Debug\net6.0\17PiramidNum.deps.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\bin\Debug\net6.0\17PiramidNum.runtimeconfig.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\bin\Debug\net6.0\17PiramidNum.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\bin\Debug\net6.0\17PiramidNum.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\17PiramidNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\17PiramidNum.AssemblyInfoInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\17PiramidNum.AssemblyInfo.cs
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\17PiramidNum.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\17PiramidNum.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\refint\17PiramidNum.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\17PiramidNum.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\17PiramidNum.genruntimeconfig.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17PiramidNum\17PiramidNum\obj\Debug\net6.0\ref\17PiramidNum.dll

@@ -1,0 +1,14 @@
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\bin\Debug\net6.0\17Stairs.exe
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\bin\Debug\net6.0\17Stairs.deps.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\bin\Debug\net6.0\17Stairs.runtimeconfig.json
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\bin\Debug\net6.0\17Stairs.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\bin\Debug\net6.0\17Stairs.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\17Stairs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\17Stairs.AssemblyInfoInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\17Stairs.AssemblyInfo.cs
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\17Stairs.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\17Stairs.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\refint\17Stairs.dll
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\17Stairs.pdb
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\17Stairs.genruntimeconfig.cache
+C:\Users\javie\Desktop\git\GitRepository\DI\Proyectos\17Stairs\17Stairs\obj\Debug\net6.0\ref\17Stairs.dll

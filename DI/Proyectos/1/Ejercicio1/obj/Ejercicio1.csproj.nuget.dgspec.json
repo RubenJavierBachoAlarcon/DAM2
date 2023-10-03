@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj": {}
+    "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\1\\Ejercicio1\\Ejercicio1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj": {
+    "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\1\\Ejercicio1\\Ejercicio1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
+        "projectUniqueName": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\1\\Ejercicio1\\Ejercicio1.csproj",
         "projectName": "Ejercicio1",
-        "projectPath": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Ejercicio1\\Ejercicio1\\Ejercicio1.csproj",
-        "packagesPath": "C:\\Users\\DAM02-05\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Ejercicio1\\Ejercicio1\\obj\\",
+        "projectPath": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\1\\Ejercicio1\\Ejercicio1.csproj",
+        "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\1\\Ejercicio1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DAM02-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

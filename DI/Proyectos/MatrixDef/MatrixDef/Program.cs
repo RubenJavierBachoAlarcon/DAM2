@@ -6,7 +6,7 @@ class Program
     static void Main()
     {
         // Crear una matriz de 7x7
-        Matrix.Matrix matrix = new Matrix.Matrix(12);
+        Matrix.Matrix matrix = new Matrix.Matrix(9);
 
         
 

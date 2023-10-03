@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DAM02-05\\.nuget\\packages\\": {}
+    "C:\\Users\\javie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
+      "projectUniqueName": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\2\\Ejercicio2\\Ejercicio2.csproj",
       "projectName": "Ejercicio2",
-      "projectPath": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Ejercicio2\\Ejercicio2\\Ejercicio2.csproj",
-      "packagesPath": "C:\\Users\\DAM02-05\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DAM02-05\\Desktop\\git\\DAM2\\DI\\Proyectos\\Ejercicio2\\Ejercicio2\\obj\\",
+      "projectPath": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\2\\Ejercicio2\\Ejercicio2.csproj",
+      "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\2\\Ejercicio2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DAM02-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
