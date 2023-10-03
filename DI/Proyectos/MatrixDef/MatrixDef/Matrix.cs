@@ -29,7 +29,7 @@ namespace Matrix
             neo = new Neo();
             smith = new Smith();
 
-            for (int i = 0; i < 200; i++)
+            for (int i = 0; i < 1000; i++)
             {
                 chars.Add(new Character());
             }
@@ -81,8 +81,17 @@ namespace Matrix
                     else
                     {
                         matrix[i, j] = 'c';
-                        matrixChar[i, j] = (Character)(chars[chars.Count - 1]);
-                        chars.RemoveAt(chars.Count - 1);
+
+                        if (chars.Count > 0)
+                        {
+                            matrixChar[i, j] = (Character)(chars[chars.Count - 1]);
+                            chars.RemoveAt(chars.Count - 1);
+                        }
+                        else
+                        {
+                            Console.WriteLine("No characters to fill the matrix");
+                            Environment.Exit(0);
+                        }
                         matrixChar[i, j].x = i;
                         matrixChar[i, j].y = j;
                     }
@@ -115,8 +124,16 @@ namespace Matrix
                         {
                             if (matrixChar[i, j].probDeath > 0.7)
                             {
-                                matrixChar[i, j] = (Character)(chars[chars.Count - 1]);
-                                chars.RemoveAt(chars.Count - 1);
+                                if (chars.Count > 0)
+                                {
+                                    matrixChar[i, j] = (Character)(chars[chars.Count - 1]);
+                                    chars.RemoveAt(chars.Count - 1);
+                                }
+                                else
+                                {
+                                    Console.WriteLine("No characters left");
+                                    Environment.Exit(0);
+                                }
                             }
                             else
                             {
@@ -168,8 +185,8 @@ namespace Matrix
                                             matrixChar[x + i, y + j] = null;
                                             matrix[x + i, y + j] = '-';
                                             numInfected++;
-                                            Console.WriteLine("La capacidad de infectar es: " + smith.capInfect);
-                                            Console.WriteLine("numero de infectados:" + numInfected);
+                                            Console.WriteLine("cap of infect is: " + smith.capInfect);
+                                            Console.WriteLine("num infected:" + numInfected);
                                             foundPath = true;
                                         }
                                         Console.WriteLine(smith.capInfect);
@@ -252,7 +269,20 @@ namespace Matrix
                 neo.y = randomY;
             }
         }
-        
+
+        public bool OnlySmithNeoMatrix()
+        {
+            foreach (Character character in matrixChar)
+            {
+                if (character != null && !(character is Smith) && !(character is Neo))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+
     }
 
 }

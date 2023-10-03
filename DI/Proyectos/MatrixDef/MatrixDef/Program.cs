@@ -5,63 +5,73 @@ class Program
 {
     static void Main()
     {
-        // Crear una matriz de 7x7
-        Matrix.Matrix matrix = new Matrix.Matrix(9);
+        // Create a 7x7 matrix
+        Matrix.Matrix matrix = new Matrix.Matrix(20);
 
-        
-
-        // Llenar la matriz y colocar personajes iniciales (Neo y Smith)
+        // Fill the matrix and place initial characters (Neo and Smith)
         matrix.fillMatrix();
 
-        // Imprimir la matriz inicial
+        // Print the initial matrix
         matrix.printMatrix();
 
-        // Imprimir la posición inicial de Neo
-        Console.WriteLine("Posición inicial de Neo:");
+        // Print Neo's initial position
+        Console.WriteLine("Initial position of Neo:");
         Console.WriteLine("X: " + matrix.neo.x);
         Console.WriteLine("Y: " + matrix.neo.y);
 
-        // Imprimir la cantidad de personajes iniciales
-        Console.WriteLine("Cantidad de personajes iniciales: " + matrix.chars.Count);
+        // Print the number of initial characters
+        Console.WriteLine("Number of initial characters: " + matrix.chars.Count);
 
-        // Imprimir la probabilidad de muerte en la posición (2,2)
-        Console.WriteLine("Probabilidad de muerte en (2,2): " + matrix.matrixChar[2, 2].probDeath);
+        // Print the death probability at position (2,2)
+        Console.WriteLine("Death probability at (2,2): " + matrix.matrixChar[2, 2].probDeath);
 
-        // Simular eventos
+        // Simulate events
         for (int seconds = 1; seconds <= 25; seconds++)
         {
-            Console.WriteLine("\nSegundo " + seconds);
+            Console.WriteLine("\nSecond " + seconds);
 
-            // Evaluar la probabilidad de muerte y reemplazar personajes
+            // Evaluate the death probability and replace characters
             matrix.charActs();
+
+            if (matrix.OnlySmithNeoMatrix())
+            {
+                Console.WriteLine("Only Neo and Smith left");
+                Environment.Exit(0);
+            }
 
             if (seconds % 2 == 0)
             {
-                // Smith actúa cada dos segundos
+                // Smith acts every two seconds
                 matrix.smithActs();
+
+                if (matrix.OnlySmithNeoMatrix())
+                {
+                    Console.WriteLine("Only Neo and Smith left");
+                    Environment.Exit(0);
+                }
             }
 
             if (seconds % 5 == 0)
             {
-                // Neo actúa cada cinco segundos
+                // Neo acts every five seconds
                 matrix.neoActs();
             }
 
-            // Imprimir la matriz después de cada segundo
+            // Print the matrix after each second
             matrix.printMatrix();
 
-            // Verificar si la simulación debe terminar
+            // Check if the simulation should end
             if (matrix.chars.Count <= 2)
             {
-                Console.WriteLine("La simulación ha terminado.");
+                Console.WriteLine("The simulation has ended.");
                 break;
             }
 
-            // Pausa de un segundo (1000 milisegundos)
-            
+            // Pause for one second (1000 milliseconds)
+            Thread.Sleep(1000);
         }
 
-        // Imprimir la cantidad de personajes restantes al final de la simulación
-        Console.WriteLine("Cantidad de personajes restantes: " + matrix.chars.Count);
+        // Print the number of remaining characters at the end of the simulation
+        Console.WriteLine("Number of remaining characters: " + matrix.chars.Count);
     }
 }
