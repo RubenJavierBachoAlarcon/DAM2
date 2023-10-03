@@ -1,0 +1,14 @@
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\bin\Debug\net6.0\17Rombus.exe
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\bin\Debug\net6.0\17Rombus.deps.json
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\bin\Debug\net6.0\17Rombus.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\bin\Debug\net6.0\17Rombus.dll
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\bin\Debug\net6.0\17Rombus.pdb
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\17Rombus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\17Rombus.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\17Rombus.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\17Rombus.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\17Rombus.dll
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\refint\17Rombus.dll
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\17Rombus.pdb
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\17Rombus.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\17PiramidRombus\Ejercicio17Piramid\obj\Debug\net6.0\ref\17Rombus.dll
