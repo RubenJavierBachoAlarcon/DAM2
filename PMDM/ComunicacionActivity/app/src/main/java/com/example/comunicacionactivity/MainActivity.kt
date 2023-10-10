@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.activity.result.ActivityResultLauncher
+import androidx.activity.result.contract.ActivityResultContracts
 import com.example.comunicacionactivity.databinding.ActivityMainBinding
 
 /**
@@ -22,6 +24,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         crearObjetosDelXML()
         // Resto del código de onCreate
+
+        activityResultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
+            if (result.data != null) {
+                val mensaje = result.data?.getStringExtra("mensaje")
+                binding.textView.text = mensaje
+            }
+        }
     }
 
     /**
@@ -52,6 +61,17 @@ class MainActivity : AppCompatActivity() {
 
     fun openSomeActivityForResult(view: View){
         val intent = Intent(this, MainActivity2::class.java)
+        activityResultLauncher.launch(intent)
+    }
+
+    /**
+     * Apertura devolucion de datos
+     *
+     * @param[view] View que llama al metodo
+     */
+
+    fun openSomeActivityForResultData(view: View) {
+        val intent = Intent(this, DevuelveDatos::class.java)
         activityResultLauncher.launch(intent)
     }
 
