@@ -10,8 +10,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30c045b5-7b8f-40cc-ac0d-50437ac2ed44" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ejemploGridLayout/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejemploGridLayout/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejemploGridLayout/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejemploGridLayout/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/androidTest/java/com/example/llamadaotraactivitytext/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/java/com/example/llamadaotraactivitytext/ACTIVITY.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/app/src/test/java/com/example/llamadaotraactivitytext/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LlamadaOtraActivityText/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComunicacionActivity/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ComunicacionActivity/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComunicacionActivity/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/../ComunicacionActivity/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +72,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/b15-06m/Desktop/git/DAM2/PMDM/LlamadaOtraActivityText",
     "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
 }]]></component>
