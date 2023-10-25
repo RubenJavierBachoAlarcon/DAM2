@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "633428130194",
+    "project_id": "fir-2023-2024-debd6",
+    "storage_bucket": "fir-2023-2024-debd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633428130194:android:d8524d892c3e834ea5a94b",
+        "android_client_info": {
+          "package_name": "com.example.cloudfirestore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQUCVyMKUkAZUKlTVcZhH_8sLMMEK1jwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
