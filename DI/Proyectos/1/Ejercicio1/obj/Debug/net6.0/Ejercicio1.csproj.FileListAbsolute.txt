@@ -26,3 +26,17 @@ C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\refint
 C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.pdb
 C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.genruntimeconfig.cache
 C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\ref\Ejercicio1.dll
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\bin\Debug\net6.0\Ejercicio1.exe
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\bin\Debug\net6.0\Ejercicio1.deps.json
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\bin\Debug\net6.0\Ejercicio1.runtimeconfig.json
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\bin\Debug\net6.0\Ejercicio1.dll
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\bin\Debug\net6.0\Ejercicio1.pdb
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.AssemblyInfoInputs.cache
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.AssemblyInfo.cs
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.dll
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\refint\Ejercicio1.dll
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.pdb
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\Ejercicio1.genruntimeconfig.cache
+C:\Users\DAM02-05\Desktop\DAM2\DI\Proyectos\1\Ejercicio1\obj\Debug\net6.0\ref\Ejercicio1.dll
