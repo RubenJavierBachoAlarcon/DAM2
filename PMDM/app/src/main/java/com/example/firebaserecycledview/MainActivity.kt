@@ -2,6 +2,7 @@ package com.example.firebaserecycledview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.firebaserecycledview.adapter.*
@@ -23,7 +24,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        Log.d("Firestore", "onCreate")
+
         crearObjetosDelXml()
+
+        initRecyclerView()
     }
 
     private fun crearObjetosDelXml() {
@@ -34,7 +39,7 @@ class MainActivity : AppCompatActivity() {
     private fun initRecyclerView() {
         val decoration = DividerItemDecoration(this, manager.orientation)
 
-        binding.recyclerProductos.addItemDecoration(decoration)
+        binding.recyclerProductos.layoutManager = manager
         productoProvider = ProductoProvider()
         productoAdapter = ProductosAdapter(productoProvider.mutableList)
 
@@ -45,6 +50,7 @@ class MainActivity : AppCompatActivity() {
                 binding.recyclerProductos.adapter = productoAdapter
                 binding.recyclerProductos.addItemDecoration(decoration)
             }
+        Log.d("Firestore", "initRecyclerView")
     }
 
     private fun insertRegister(producto: Producto) {
@@ -60,6 +66,7 @@ class MainActivity : AppCompatActivity() {
             .addOnSuccessListener {
                 productoProvider.mutableList.add(producto.id, producto)
                 productoAdapter.notifyItemInserted(producto.id)
+                Log.d("Firestore", "Producto agregado: $producto")
             }
     }
 

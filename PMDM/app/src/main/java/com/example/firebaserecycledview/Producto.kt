@@ -1,4 +1,4 @@
-package com.example.firebaserecycledview.adapter
+package com.example.firebaserecycledview
 
 data class Producto (
     var id: Int = 0,

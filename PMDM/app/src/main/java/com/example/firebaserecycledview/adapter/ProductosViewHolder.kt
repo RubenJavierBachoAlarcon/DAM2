@@ -3,6 +3,7 @@ package com.example.firebaserecycledview.adapter
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.firebaserecycledview.Producto
 import com.example.firebaserecycledview.databinding.ItemProductoBinding
 
 class ProductosViewHolder (view: View): RecyclerView.ViewHolder(view){

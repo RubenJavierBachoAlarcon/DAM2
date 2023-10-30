@@ -1,7 +1,6 @@
 package com.example.firebaserecycledview
 
 import android.util.Log
-import com.example.firebaserecycledview.adapter.Producto
 import com.google.firebase.firestore.QuerySnapshot
 
 class ProductoProvider {
