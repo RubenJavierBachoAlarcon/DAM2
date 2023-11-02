@@ -1,4 +1,4 @@
-package com.break4learning.LisConRecyclerViewCloudFirestore
+package com.example.firebaserecycledview
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -33,9 +33,9 @@ class MainActivity2 : AppCompatActivity() {
         //en pantalla
         if (objetoIntent.hasExtra("IdProducto")) {
             idProducto = objetoIntent.getStringExtra("IdProducto")!!
-            binding.editTextNombre.setText(objetoIntent.getStringExtra("NombreProducto"))
-            binding.editTextDesc.setText(objetoIntent.getStringExtra("DescProducto"))
-            binding.editTextEnlaceFoto.setText(objetoIntent.getStringExtra("FotoProducto"))
+            binding.editTextNombre.setText(objetoIntent.getStringExtra("nombre"))
+            binding.editTextDesc.setText(objetoIntent.getStringExtra("descripcion"))
+            binding.editTextEnlaceFoto.setText(objetoIntent.getStringExtra("foto"))
         }
 
 //        Glide.with(binding.imageViewFoto.context)
@@ -76,9 +76,9 @@ class MainActivity2 : AppCompatActivity() {
             intent.putExtra("IdProducto", idProducto)
         }
 
-        intent.putExtra("NombreProducto", binding.editTextNombre.text.toString())
-        intent.putExtra("DescProducto", binding.editTextDesc.text.toString())
-        intent.putExtra("FotoProducto", binding.editTextEnlaceFoto.text.toString())
+        intent.putExtra("nombre", binding.editTextNombre.text.toString())
+        intent.putExtra("descripcion", binding.editTextDesc.text.toString())
+        intent.putExtra("foto", binding.editTextEnlaceFoto.text.toString())
 
         setResult(INSERTANDO_MODIFICANDO, intent)
         finish()
