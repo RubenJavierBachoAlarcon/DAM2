@@ -1,0 +1,60 @@
+# Ejercicio 15
+def calcular_factorial_impar(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * calcular_factorial_impar(n - 2)
+
+numero_impar = int(input("Introduce un número para calcular su factorial impar: "))
+print(f"Factorial impar de {numero_impar}: {calcular_factorial_impar(numero_impar)}")
+
+# Ejercicio 16
+suma = 0
+contador = 0
+
+while True:
+    numero = float(input("Introduce un número real (introduce 100 para terminar): "))
+    if numero == 100:
+        break
+    suma += numero
+    contador += 1
+
+if contador != 0:
+    valor_medio = suma / contador
+    print(f"Valor medio de la secuencia: {valor_medio}")
+else:
+    print("No se introdujeron números para calcular el valor medio")
+
+# Ejercicio 17
+suma = 0
+contador = 0
+
+while True:
+    numero = int(input("Introduce un número entero (introduce un valor negativo para terminar): "))
+    if numero < 0:
+        break
+    suma += numero
+    contador += 1
+
+if contador != 0:
+    valor_medio = suma / contador
+    print(f"Valor medio de la secuencia: {valor_medio}")
+else:
+    print("No se introdujeron números para calcular el valor medio")
+
+# Ejercicio 18
+while True:
+    cantidad_numeros = int(input("Introduce la cantidad de números reales a ingresar: "))
+    numeros = [float(input(f"Introduce el número {i + 1}: ")) for i in range(cantidad_numeros)]
+    
+    if cantidad_numeros != 0:
+        valor_medio = sum(numeros) / cantidad_numeros
+        print(f"Valor medio de la secuencia: {valor_medio}")
+    else:
+        print("No se introdujeron números para calcular el valor medio")
+    
+    continuar = input("¿Desea realizar otra vez el cálculo? (s/n): ")
+    if continuar.lower() != 's':
+        break
+
+# Resto de ejercicios...

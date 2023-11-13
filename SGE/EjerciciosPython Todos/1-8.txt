@@ -1,0 +1,53 @@
+# Ejercicio 1
+tiempo1 = input("Introduce el primer tiempo (Horas minutos segundos): ").split()
+tiempo2 = input("Introduce el segundo tiempo (Horas minutos segundos): ").split()
+
+segundos1 = int(tiempo1[0]) * 3600 + int(tiempo1[1]) * 60 + int(tiempo1[2])
+segundos2 = int(tiempo2[0]) * 3600 + int(tiempo2[1]) * 60 + int(tiempo2[2])
+
+diferencia_segundos = abs(segundos1 - segundos2)
+print(f"Diferencia en segundos: {diferencia_segundos}")
+
+# Ejercicio 2
+def es_bisiesto(anio):
+    return (anio % 4 == 0 and anio % 100 != 0) or (anio % 400 == 0)
+
+anio = int(input("Introduce un año: "))
+if es_bisiesto(anio):
+    print(f"{anio} es un año bisiesto")
+else:
+    print(f"{anio} no es un año bisiesto")
+
+# Ejercicios 3, 4, 5, 6 (misma estructura)
+def calcular_ecuacion(n, coeficiente):
+    resultado = 1
+    for i in range(1, n + 1):
+        resultado *= coeficiente * i
+    return resultado
+
+n = int(input("Introduce el valor de n: "))
+print(f"Resultado ecuación: {calcular_ecuacion(n, 2)}")
+
+# Ejercicio 7
+vocales = "aeiouAEIOU"
+caracteres = input("Introduce caracteres (hasta espacio en blanco): ")
+num_vocales = sum(1 for char in caracteres if char in vocales)
+print(f"Número de vocales introducidas: {num_vocales}")
+
+# Ejercicio 8
+vocales = "aeiouAEIOU"
+consonantes = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
+otros_signos = ".,;:?!¡¿"
+
+caracteres = input("Introduce caracteres (hasta espacio en blanco): ")
+num_vocales = sum(1 for char in caracteres if char in vocales)
+num_consonantes = sum(1 for char in caracteres if char in consonantes)
+num_otros_signos = sum(1 for char in caracteres if char in otros_signos)
+num_total_caracteres = len(caracteres) - 1  # Excluir espacio en blanco final
+
+print(f"Número de vocales: {num_vocales}")
+print(f"Número de consonantes: {num_consonantes}")
+print(f"Número de otros signos: {num_otros_signos}")
+print(f"Número total de caracteres: {num_total_caracteres}")
+
+# Resto de ejercicios...

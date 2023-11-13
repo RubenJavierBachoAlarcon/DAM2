@@ -1,0 +1,35 @@
+# Ejercicio 19
+X = int(input("Introduce el dividendo (X): "))
+Y = int(input("Introduce el divisor (Y): "))
+
+cociente = 0
+while X >= Y:
+    X -= Y
+    cociente += 1
+
+print(f"Resultado de la división entera: Cociente = {cociente}, Resto = {X}")
+
+# Ejercicio 20
+contador_a = 0
+
+while contador_a < 10:
+    caracter = input("Introduce un caracter: ")
+    if caracter.lower() == 'a':
+        contador_a += 1
+    else:
+        print(f"Faltan {10 - contador_a} 'a' para terminar el programa")
+
+# Ejercicio 21
+cantidad_caracteres = int(input("Introduce la cantidad de caracteres a ingresar: "))
+caracter_contar = input("Introduce el carácter a contabilizar: ")
+
+contador_caracter = 0
+for _ in range(cantidad_caracteres):
+    caracter = input("Introduce un caracter: ")
+    if caracter == caracter_contar:
+        contador_caracter += 1
+
+print(f"Carácter seleccionado: {caracter_contar}")
+print(f"Número de veces que se repite: {contador_caracter}")
+
+# Resto de ejercicios...

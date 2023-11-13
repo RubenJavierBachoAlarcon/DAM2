@@ -1,0 +1,42 @@
+# Ejercicio 28
+import cmath
+
+def resolver_ecuacion_segundo_grado(a, b, c):
+    discriminante = cmath.sqrt(b**2 - 4*a*c)
+    raiz1 = (-b + discriminante) / (2*a)
+    raiz2 = (-b - discriminante) / (2*a)
+    return raiz1, raiz2
+
+a = float(input("Introduce el coeficiente a: "))
+b = float(input("Introduce el coeficiente b: "))
+c = float(input("Introduce el coeficiente c: "))
+
+soluciones = resolver_ecuacion_segundo_grado(a, b, c)
+print(f"Soluciones de la ecuación de segundo grado: {soluciones}")
+
+# Ejercicio 29
+n = int(input("Introduce un valor entero n: "))
+print(f"{'Número':<8}{'Cuadrado':<8}{'Cubo':<8}")
+for i in range(1, 11):
+    cuadrado = (n + i)**2
+    cubo = (n + i)**3
+    print(f"{n+i:<8}{cuadrado:<8}{cubo:<8}")
+
+# Ejercicio 30
+def calcular_raiz_bakhshali(x):
+    n = int(x)
+    a = 1
+    while a * a < n:
+        a += 1
+    a -= 1
+    b = n - a * a
+    c = 2 * a
+
+    if b == 0:
+        return a
+    else:
+        return a + (b / c)
+
+numero_real = float(input("Introduce un número real para calcular su raíz cuadrada: "))
+resultado_raiz = calcular_raiz_bakhshali(numero_real)
+print(f"Raíz cuadrada de {numero_real} según el método de Bakhshali: {resultado_raiz}")

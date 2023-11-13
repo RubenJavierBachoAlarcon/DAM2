@@ -1,0 +1,43 @@
+# Ejercicio 25
+def conversion_dolares_euros(dolares):
+    tasa_cambio = 0.85
+    euros = dolares * tasa_cambio
+    return euros
+
+def conversion_euros_dolares(euros):
+    tasa_cambio = 1.18
+    dolares = euros * tasa_cambio
+    return dolares
+
+opcion = input("¿Qué conversión desea realizar? (1: Dólares a Euros, 2: Euros a Dólares): ")
+
+if opcion == "1":
+    dolares = float(input("Introduce la cantidad en dólares: "))
+    resultado_conversion = conversion_dolares_euros(dolares)
+    print(f"{dolares} dólares equivalen a {resultado_conversion} euros")
+elif opcion == "2":
+    euros = float(input("Introduce la cantidad en euros: "))
+    resultado_conversion = conversion_euros_dolares(euros)
+    print(f"{euros} euros equivalen a {resultado_conversion} dólares")
+else:
+    print("Opción no válida")
+
+# Ejercicio 26
+numero_tabla = int(input("Introduce un número para mostrar su tabla de multiplicar: "))
+print(f"Tabla de multiplicar del {numero_tabla}")
+
+for i in range(11):
+    resultado = numero_tabla * i
+    print(f"{i} x {numero_tabla} = {resultado}")
+
+# Ejercicio 27
+G = 6.67e-11
+
+m1 = float(input("Introduce la masa m1 en kg: "))
+m2 = float(input("Introduce la masa m2 en kg: "))
+r = float(input("Introduce la distancia r entre las masas en metros: "))
+
+fuerza_atraccion = (G * m1 * m2) / (r ** 2)
+print(f"Fuerza de atracción gravitacional: {fuerza_atraccion} N")
+
+# Resto de ejercicios...

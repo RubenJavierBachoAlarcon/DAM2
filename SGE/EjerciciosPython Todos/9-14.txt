@@ -1,0 +1,55 @@
+# Ejercicio 9
+cantidad_numeros = int(input("Introduce la cantidad de números a ingresar: "))
+numeros = [int(input(f"Introduce el número {i + 1}: ")) for i in range(cantidad_numeros)]
+maximo = max(numeros)
+print(f"El valor máximo es: {maximo}")
+
+# Ejercicio 10
+inicio = int(input("Introduce el primer valor: "))
+fin = int(input("Introduce el segundo valor: "))
+
+multiplos_siete = [num for num in range(inicio, fin + 1) if num % 7 == 0]
+print(f"Números múltiplos de siete entre {inicio} y {fin}: {multiplos_siete}")
+
+# Ejercicio 11
+limite = int(input("Introduce un valor límite: "))
+multiplos_veintiuno = [num for num in range(limite + 1) if num % 21 == 0]
+print(f"Números múltiplos de veintiuno hasta {limite}: {multiplos_veintiuno}")
+
+# Ejercicio 12
+def es_primo(numero):
+    if numero < 2:
+        return False
+    for i in range(2, int(numero ** 0.5) + 1):
+        if numero % i == 0:
+            return False
+    return True
+
+numero_primo = int(input("Introduce un número para verificar si es primo: "))
+if es_primo(numero_primo):
+    print(f"{numero_primo} es un número primo")
+else:
+    print(f"{numero_primo} no es un número primo")
+
+# Ejercicio 13
+def es_abundante(numero):
+    suma_divisores = sum(i for i in range(1, numero) if numero % i == 0)
+    return suma_divisores > numero
+
+numero_abundante = int(input("Introduce un número para verificar si es abundante: "))
+if es_abundante(numero_abundante):
+    print(f"{numero_abundante} es un número abundante")
+else:
+    print(f"{numero_abundante} no es un número abundante")
+
+# Ejercicio 14
+def calcular_factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * calcular_factorial(n - 1)
+
+numero_factorial = int(input("Introduce un número para calcular su factorial: "))
+print(f"Factorial de {numero_factorial}: {calcular_factorial(numero_factorial)}")
+
+# Resto de ejercicios...

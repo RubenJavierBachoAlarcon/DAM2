@@ -1,0 +1,39 @@
+# Ejercicio 22
+import math
+
+def calcular_cos(x, precision):
+    radianes = math.radians(x)
+    resultado = 0
+
+    for n in range(precision + 1):
+        resultado += ((-1) ** n) * (radianes ** (2 * n)) / math.factorial(2 * n)
+
+    return resultado
+
+x = float(input("Introduce el valor de x para cos(x): "))
+precision = int(input("Introduce la precisión (número de términos): "))
+
+resultado_cos = calcular_cos(x, precision)
+print(f"Cos({x}): {resultado_cos}")
+
+# Ejercicio 23
+def calcular_ex(x, precision):
+    resultado = 0
+
+    for n in range(precision + 1):
+        resultado += (x ** n) / math.factorial(n)
+
+    return resultado
+
+x = float(input("Introduce el valor de x para e^x: "))
+precision = int(input("Introduce la precisión (número de términos): "))
+
+resultado_ex = calcular_ex(x, precision)
+print(f"e^{x}: {resultado_ex}")
+
+# Ejercicio 24
+hexadecimal = input("Introduce el número hexadecimal: ")
+decimal = int(hexadecimal, 16)
+print(f"Valor decimal del número hexadecimal {hexadecimal}: {decimal}")
+
+# Resto de ejercicios...
