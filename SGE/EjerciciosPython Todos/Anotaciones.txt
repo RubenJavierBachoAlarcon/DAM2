@@ -1,0 +1,152 @@
+Claro, aquí tienes algunas funciones de Python que son comúnmente utilizadas y que podrían ser útiles en un examen. Además de las funciones, he proporcionado un breve ejemplo de cómo podrías usar cada una:
+
+1. **`len()`** - Devuelve la longitud (número de elementos) de un objeto.
+
+   ```python
+   lista = [1, 2, 3, 4, 5]
+   longitud = len(lista)
+   print(longitud)  # Salida: 5
+   ```
+
+2. **`range()`** - Genera una secuencia de números.
+
+   ```python
+   secuencia = range(5)  # Crea una secuencia de 0 a 4
+   print(list(secuencia))  # Salida: [0, 1, 2, 3, 4]
+   ```
+
+3. **`sum()`** - Devuelve la suma de los elementos de un iterable.
+
+   ```python
+   numeros = [1, 2, 3, 4, 5]
+   suma = sum(numeros)
+   print(suma)  # Salida: 15
+   ```
+
+4. **`max()`** y **`min()`** - Devuelven el valor máximo y mínimo de un iterable, respectivamente.
+
+   ```python
+   numeros = [1, 2, 3, 4, 5]
+   maximo = max(numeros)
+   minimo = min(numeros)
+   print(maximo, minimo)  # Salida: 5 1
+   ```
+
+5. **`sorted()`** - Devuelve una nueva lista ordenada a partir de los elementos de un iterable.
+
+   ```python
+   desordenados = [3, 1, 4, 1, 5, 9, 2]
+   ordenados = sorted(desordenados)
+   print(ordenados)  # Salida: [1, 1, 2, 3, 4, 5, 9]
+   ```
+
+6. **`list()`** - Convierte un iterable en una lista.
+
+   ```python
+   tupla = (1, 2, 3)
+   lista = list(tupla)
+   print(lista)  # Salida: [1, 2, 3]
+   ```
+
+7. **`map()`** - Aplica una función a todos los elementos de un iterable.
+
+   ```python
+   numeros = [1, 2, 3, 4, 5]
+   cuadrados = map(lambda x: x**2, numeros)
+   print(list(cuadrados))  # Salida: [1, 4, 9, 16, 25]
+   ```
+
+8. **`filter()`** - Filtra los elementos de un iterable según una función.
+
+   ```python
+   numeros = [1, 2, 3, 4, 5]
+   impares = filter(lambda x: x % 2 != 0, numeros)
+   print(list(impares))  # Salida: [1, 3, 5]
+   ```
+
+9. **`zip()`** - Combina dos o más iterables elemento por elemento.
+
+   ```python
+   nombres = ['Alice', 'Bob', 'Charlie']
+   edades = [25, 30, 35]
+   datos_combinados = zip(nombres, edades)
+   print(list(datos_combinados))  # Salida: [('Alice', 25), ('Bob', 30), ('Charlie', 35)]
+   ```
+
+Estos son solo ejemplos básicos, y la funcionalidad completa de cada función puede ser más compleja. Asegúrate de comprender cómo y cuándo utilizar cada una. ¡Buena suerte en tu examen!
+
+desordenados = [3, 1, 4, 1, 5, 9, 2]
+
+# Ordenar en orden ascendente (predeterminado)
+ascendente = sorted(desordenados)
+print(ascendente)  # Salida: [1, 1, 2, 3, 4, 5, 9]
+
+# Ordenar en orden descendente
+descendente = sorted(desordenados, reverse=True)
+print(descendente)  # Salida: [9, 5, 4, 3, 2, 1, 1]
+
+¡Claro! Aquí tienes algunas funciones adicionales que son útiles en Python:
+
+10. **`enumerate()`** - Devuelve tuplas que contienen índices y valores de un iterable.
+
+    ```python
+    palabras = ['hola', 'mundo', '!']
+    for indice, valor in enumerate(palabras):
+        print(f"En el índice {indice}: {valor}")
+    # Salida:
+    # En el índice 0: hola
+    # En el índice 1: mundo
+    # En el índice 2: !
+    ```
+
+11. **`any()`** y **`all()`** - `any()` devuelve `True` si al menos un elemento de un iterable es verdadero, y `all()` devuelve `True` si todos los elementos son verdaderos.
+
+    ```python
+    valores = [True, False, True]
+    resultado_any = any(valores)
+    resultado_all = all(valores)
+    print(resultado_any, resultado_all)  # Salida: True False
+    ```
+
+12. **`abs()`** - Devuelve el valor absoluto de un número.
+
+    ```python
+    numero = -5
+    absoluto = abs(numero)
+    print(absoluto)  # Salida: 5
+    ```
+
+13. **`round()`** - Redondea un número a un número especificado de decimales.
+
+    ```python
+    numero = 3.14159
+    redondeado = round(numero, 2)
+    print(redondeado)  # Salida: 3.14
+    ```
+
+14. **`str()`**, **`int()`**, **`float()`** - Convierten valores a cadenas, enteros o números de punto flotante, respectivamente.
+
+    ```python
+    entero = int("42")
+    cadena = str(42)
+    flotante = float("3.14")
+    ```
+
+15. **`input()`** - Lee una entrada del usuario desde la consola.
+
+    ```python
+    nombre = input("Ingrese su nombre: ")
+    print(f"Hola, {nombre}!")
+    ```
+
+16. **`dir()`** y **`help()`** - `dir()` devuelve una lista de nombres en el espacio de nombres, y `help()` proporciona ayuda interactiva para objetos.
+
+    ```python
+    lista = [1, 2, 3]
+    print(dir(lista))
+    help(lista.append)
+    ```
+
+Estas funciones adicionales te proporcionan herramientas poderosas para trabajar con una variedad de tipos de datos y situaciones. ¡Espero que encuentres útiles estas sugerencias para tu examen!
+
+
