@@ -1,0 +1,120 @@
+
+Menú
+BuscarBuscar
+Buscar...
+Generar números aleatorios en Python
+Categoría: Tutoriales Python
+Desayuno con Python, medio, python, random
+Para generar números aleatorios en Python se hace uso del módulo random de la biblioteca estándar. Este módulo ofrece una serie de funciones que generan números aleatorios de manera diferente. En este artículo repasaremos cuáles son las principales funciones y sus usos.
+
+Generar números aleatorios entre dos valores en Python
+randint(a, b)
+Para generar números aleatorios en Python de valor entero, se suele utilizar la función randint(). La función randint(a, b) devuelve un número entero comprendido entre a y b (ambos inclusive) de forma aleatoria. Ejemplos útiles de esta función: determinar quién comienza una partida (jugador/PC); simular el dado del parchís, etc:
+
+import random
+# ¿Quién comienza?
+comienza = random.randint(0, 1)
+if comienza == 0:
+    print('Comienza el jugador')
+else:
+    print('Comienza el PC')
+# Número aleatorio del parchís
+numero = random.randint(1, 6)
+randrange(a, b, salto)
+La función randrange(a, b, salto) genera números enteros aleatorios comprendidos entre a y b separados entre sí con un salto. Por ejemplo, randrange(5, 27, 4) obtendría un valor aleatorio de entre los siguientes posibles: 5, 9, 13, 17, 21, 25.
+
+>>> import random
+>>> for i in range(10):
+...     print(random.randrange(5, 27, 4))
+...     
+17
+13
+5
+17
+13
+25
+9
+5
+random()
+La función random() devuelve un float comprendido entre [0.0 y 1.0)
+
+>>> import random
+>>> for i in range(5):
+...     print(random.random())
+...     
+0.6355590910913725
+0.38870490605141683
+0.3757381647176976
+0.38770694501889935
+0.22472067642268556
+uniform(a, b)
+La función uniform(a, b) devuelve un float aleatorio comprendido entre a y b (ambos inclusive).
+
+>>> import random
+>>> for i in range(5):
+...     print(random.uniform(100, 200))
+...     
+170.3543065193162
+103.47025653056637
+126.52588283656675
+169.60671144065486
+145.21872629322894
+Obtener elementos aleatorios de una secuencia
+Hasta ahora hemos visto cómo obtener números aleatorios en Python. A continuación veremos que también es posible obtener elementos aleatorios de una secuencia.
+
+choice()
+La función choice(sec) devuelve un elemento aleatorio de una secuencia. Es muy útil cuando hay que elegir al azar un elemento de entre un conjunto.
+
+>>> import random
+>>> frutas = ['peras', 'manzanas', 'plátanos', 'ciruelas']
+>>> for i in range(3):
+...     print(random.choice(frutas))
+...     
+peras
+ciruelas
+plátanos
+shuffle()
+La función shuffle(sec) modifica el orden de los elementos de una lista. Esta función se asemeja a la acción de mezclar una baraja.
+
+>>> import random
+>>> baraja = [1, 2, 3, 4, 5, 6, 7, 10, 11, 12]
+>>> for i in range(3):
+...     random.shuffle(baraja)
+...     print(baraja)
+...     
+[11, 3, 2, 6, 12, 10, 5, 4, 1, 7]
+[7, 3, 1, 10, 6, 12, 2, 11, 5, 4]
+[1, 11, 3, 2, 4, 12, 5, 10, 7, 6]
+sample()
+La última función que veremos es sample(sec, num). Esta función devuelve num elementos aleatorios de la secuencia sec. Siguiendo con el ejemplo de la baraja, sería similar a la acción de repartir num cartas a un jugador.
+
+>>> import random
+>>> baraja = [1, 2, 3, 4, 5, 6, 7, 10, 11, 12]
+>>> random.sample(baraja, 5)
+[2, 1, 4, 11, 12]
+¿Quieres ser expert@ en Python? Recibe trucos Python y las últimas novedades del blog
+Nombre
+Email
+ 
+* Al enviar el formulario confirmas que aceptas la POLITICA DE PRIVACIDAD
+
+¡Eyyy! Esto también te puede interesar 👇
+Cómo copiar un fichero con Python
+Cómo copiar un fichero con Python
+Solución al Ejercicio #16
+Ejercicio #16: Cuenta subcadenas
+Solución al Ejercicio #15
+Ejercicio #15: El final común más largo
+Solución al Ejercicio #14
+Aviso legal    Política de privacidad    Política de cookies    Sobre j2logo
+
+Facebook-f
+ Twitter
+ Linkedin-in
+ Instagram
+ Envelope
+Un saludo a tod@s l@s pythonistas 🐍
+💪🏻 Nunca dejes que nadie te diga que no puedes hacer algo
+Copyright © 2018-2023 Juan José Lozano Gómez
+
+Conviértete en maestr@ Pythonista
