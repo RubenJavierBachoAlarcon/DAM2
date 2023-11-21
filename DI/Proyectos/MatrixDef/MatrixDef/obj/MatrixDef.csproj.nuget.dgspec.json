@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj": {}
+    "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj": {}
   },
   "projects": {
-    "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj": {
+    "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj",
+        "projectUniqueName": "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj",
         "projectName": "MatrixDef",
-        "projectPath": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj",
-        "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\javie\\Desktop\\gitDAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\obj\\",
+        "projectPath": "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\MatrixDef.csproj",
+        "packagesPath": "C:\\Users\\b15-06m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\MatrixDef\\MatrixDef\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b15-06m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,1 +1,2 @@
 C:\Program Files (x86) \ MySQLConnector NET 8.0
+Simulate the bishop movement in c# storage in a matrix with * the bishop is marked with B giving a position for parameter and representing all the movement that bishop can do with * teh position of the bishop(B) is random and the matrix sizes is for parameters also

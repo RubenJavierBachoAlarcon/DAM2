@@ -1,0 +1,24 @@
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.csproj.AssemblyReference.cache
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game_MarkupCompile.cache
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game_MarkupCompile.lref
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\bin\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.exe
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\bin\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.deps.json
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\bin\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.runtimeconfig.json
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\bin\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.dll
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\bin\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.pdb
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\bin\Debug\net6.0-windows\MySql.Data.xml
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.g.resources
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.AssemblyInfoInputs.cache
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.AssemblyInfo.cs
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.csproj.CoreCompileInputs.cache
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.csproj.CopyComplete
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.dll
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\refint\DI Ejercicio 4 Squid Game.dll
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.pdb
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\DI Ejercicio 4 Squid Game.genruntimeconfig.cache
+C:\Users\b15-06m\Desktop\git\DAM2\DI\Proyectos\DI Ejercicio 4 Squid Game\DI Ejercicio 4 Squid Game\obj\Debug\net6.0-windows\ref\DI Ejercicio 4 Squid Game.dll
