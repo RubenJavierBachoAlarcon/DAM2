@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game.csproj": {}
+    "C:\\Users\\DAM02-05\\Desktop\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game.csproj": {
+    "C:\\Users\\DAM02-05\\Desktop\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game.csproj",
+        "projectUniqueName": "C:\\Users\\DAM02-05\\Desktop\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game.csproj",
         "projectName": "DI Ejercicio 4 Squid Game",
-        "projectPath": "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game.csproj",
-        "packagesPath": "C:\\Users\\b15-06m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b15-06m\\Desktop\\git\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\obj\\",
+        "projectPath": "C:\\Users\\DAM02-05\\Desktop\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game.csproj",
+        "packagesPath": "C:\\Users\\DAM02-05\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAM02-05\\Desktop\\DAM2\\DI\\Proyectos\\DI Ejercicio 4 Squid Game\\DI Ejercicio 4 Squid Game\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\b15-06m\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DAM02-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
