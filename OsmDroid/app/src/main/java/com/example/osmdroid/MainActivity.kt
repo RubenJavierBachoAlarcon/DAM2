@@ -89,7 +89,7 @@ class MainActivity : AppCompatActivity() {
             habilitarLocalizacion()
         }
         binding.button.setOnClickListener {
-            checkHospitalProximity(mLocationOverlay.lastFix)
+
         }
 
     }
@@ -192,6 +192,10 @@ class MainActivity : AppCompatActivity() {
         map.invalidate()
     }
 
+    private fun pintarRuta2(loc:Location){
+
+    }
+
     private fun añadirMarcador(posicion_new: GeoPoint) {
         var marker = Marker(map)
         marker.position = posicion_new
@@ -199,47 +203,6 @@ class MainActivity : AppCompatActivity() {
             ContextCompat.getDrawable(this, org.osmdroid.library.R.drawable.ic_menu_compass)
     }
 
-    //create a method call RequestHospital that Request all the Hospital location from the API and add them to the map
-    private fun checkHospitalProximity(location: Location) {
-        val retrofit = Retrofit.Builder()
-            .baseUrl("https://overpass-api.de/")
-            .addConverterFactory(GsonConverterFactory.create())
-            .build()
-
-        val overpassApi = retrofit.create(OverpassApi::class.java)
-
-        val query = "[out:json];(node[amenity=hospital](around:100,${location.latitude},${location.longitude}););out;"
-
-        val call: Call<OverpassResponse> = overpassApi.getHospitals(query)
-
-        call.enqueue(object : Callback<OverpassResponse> {
-            override fun onResponse(call: Call<OverpassResponse>, response: Response<OverpassResponse>) {
-                if (response.isSuccessful) {
-                    val hospitalLocations = response.body()?.elements?.map {
-                        GeoPoint(it.lat, it.lon)
-                    } ?: emptyList()
-
-                    for (hospitalLocation in hospitalLocations) {
-                        val results = FloatArray(1)
-                        Location.distanceBetween(
-                            location.latitude, location.longitude,
-                            hospitalLocation.latitude, hospitalLocation.longitude,
-                            results
-                        )
-
-                        if (results[0] < 100) {
-                            hospitalCounter++
-                            break
-                        }
-                    }
-                }
-            }
-
-            override fun onFailure(call: Call<OverpassResponse>, t: Throwable) {
-                // Manejar el fallo de la solicitud HTTP aquí
-            }
-        })
-    }
 
 
 
