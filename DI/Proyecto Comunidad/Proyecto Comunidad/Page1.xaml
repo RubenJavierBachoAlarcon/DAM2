@@ -1,0 +1,28 @@
+﻿<Page x:Class="Proyecto_Comunidad.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Proyecto_Comunidad"
+      mc:Ignorable="d"
+      Title="Page1" Width="234" Height="421">
+    <Grid>
+        
+        <GroupBox Header="Entrance Data" BorderBrush="#FFF248B1" BorderThickness="3,3,3,3" Margin="0,0,0,11">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="NEXT" Content="NEXT" HorizontalAlignment="Center" Width="212" Margin="0,356,0,12" FontWeight="Bold" Click="NEXT_Click"/>
+                <TextBox x:Name="NUMFLOORS" HorizontalAlignment="Center" Margin="0,162,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" ToolTip="Task Name"/>
+                <Label Content="Num. Stairs" HorizontalAlignment="Center" Margin="0,75,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                <Label Content="Num. Letters" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                <Label Content="Num. Floors" HorizontalAlignment="Center" Margin="0,131,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                <TextBox x:Name="NUMSTAIRS" HorizontalAlignment="Center" Margin="0,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" ToolTip="Task Name"/>
+                <TextBox x:Name="NUMLETTERS" HorizontalAlignment="Center" Margin="0,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" ToolTip="Task Name"/>
+                <Label x:Name="NUMENTRANCES" Content="Entrance 1" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+                <Button x:Name="SAVE_Copiar" Content="BACK" HorizontalAlignment="Center" Width="212" Margin="0,322,0,46" FontWeight="Bold" IsEnabled="False"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Page>

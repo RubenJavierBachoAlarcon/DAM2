@@ -1,0 +1,26 @@
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.AssemblyReference.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\MainWindow.g.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\App.g.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad_MarkupCompile.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad_MarkupCompile.lref
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\Proyecto Comunidad.exe.config
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\Proyecto Comunidad.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\Proyecto Comunidad.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\MainWindow.baml
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.g.resources
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto_Comunidad.Properties.Resources.resources
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.GenerateResource.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.CoreCompileInputs.cache
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.exe
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.pdb
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page1.g.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page1.baml
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\MySql.Data.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\System.Memory.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\System.Buffers.dll
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\MySql.Data.xml
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.CopyComplete
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page2.g.cs
+C:\Users\DAM02-05\Desktop\git\DAM2\DI\Proyectos\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page2.baml
