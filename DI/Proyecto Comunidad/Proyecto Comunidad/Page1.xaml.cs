@@ -84,10 +84,9 @@ namespace Proyecto_Comunidad
                         }
                     }
                 }
-                NavigationWindow window = new NavigationWindow();
-                window.Content = new Page2(); // Tu página inicial
-                window.Show();
-
+                MainWindow mainWindow = (MainWindow)Application.Current.MainWindow;
+                Page2 page2 = new Page2();
+                mainWindow.MainFrame.Navigate(page2);
 
             }
             if (GlobalVariable.numEntrances == 1)
