@@ -43,7 +43,6 @@ namespace Proyecto_Comunidad
             GlobalVariable.numEntrancesFinal = int.Parse(NUM_ENTRANCES.Text);
             GlobalVariable.numEntrances = GlobalVariable.numEntrancesFinal;
             GlobalVariable.nameCommunity = NAME.Text;
-            
 
             MainWindow mainWindow = (MainWindow)Application.Current.MainWindow;
             Page1 page1 = new Page1();

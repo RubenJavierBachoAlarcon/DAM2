@@ -30,6 +30,9 @@ namespace Proyecto_Comunidad
 
         private void generarVecinos_Click(object sender, RoutedEventArgs e)
         {
+
+            generarVecinos.IsEnabled = false;
+            distribuirVecinos.IsEnabled = true;
             
             StringBuilder sb = new StringBuilder();
             sb.Append("INSERT INTO owners (id, DNI, Name, Surname, Address, Locality, zipCode, province) VALUES ");

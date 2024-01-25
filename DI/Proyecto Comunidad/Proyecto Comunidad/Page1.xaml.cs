@@ -85,8 +85,9 @@ namespace Proyecto_Comunidad
                     }
                 }
                 MainWindow mainWindow = (MainWindow)Application.Current.MainWindow;
-                Page2 page2 = new Page2();
-                mainWindow.MainFrame.Navigate(page2);
+                Page4 page4 = new Page4();
+                mainWindow.MainFrame.Navigate(page4);
+
 
             }
             if (GlobalVariable.numEntrances == 1)

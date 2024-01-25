@@ -12,9 +12,9 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="generarVecinos" Content="GENERAR VECINOS" HorizontalAlignment="Center" Width="212" Margin="0,334,0,12" FontWeight="Bold" Click="generarVecinos_Click"/>
-            <Label x:Name="NUMENTRANCES" Content="Generar vecinos" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
-            <Button x:Name="distribuirVecinos" Content="DISTRIBUIR VECINOS" HorizontalAlignment="Center" Width="212" Margin="0,258,0,88" FontWeight="Bold" Click="distribuirVecinos_Click"/>
+            <Button x:Name="generarVecinos" Content="GENERATE OWNERS" HorizontalAlignment="Center" Width="212" Margin="0,334,0,12" FontWeight="Bold" Click="generarVecinos_Click"/>
+            <Label x:Name="NUMENTRANCES" Content="Generate Owners" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
+            <Button x:Name="distribuirVecinos" Content="DISTRIBUTE OWNERS" HorizontalAlignment="Center" Width="212" Margin="0,258,0,88" FontWeight="Bold" Click="distribuirVecinos_Click" IsEnabled="False"/>
         </Grid>
     </GroupBox>
 </Page>
