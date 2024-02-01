@@ -98,13 +98,10 @@ public class ARTICVENTAS {
 
         for (Articulo articulo : articulos) {
             System.out.println("Artículo: " + articulo.getDenom());
-
-           
-
+            
             int suma_univen = 0;
             float suma_importe = 0;
             int num_ventas = 0;
-
             
             for (Venta venta : articulo.getCompras()) {
                 suma_univen += venta.getUniven();
