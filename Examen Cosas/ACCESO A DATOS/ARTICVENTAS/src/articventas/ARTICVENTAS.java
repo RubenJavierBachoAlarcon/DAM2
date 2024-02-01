@@ -8,6 +8,9 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Root;
 
 /**
  *
@@ -21,7 +24,8 @@ public class ARTICVENTAS {
     public static void main(String[] args) {
         conectarBD();
 
-        insertarDatos();
+//        insertarDatos();
+        consultar();
         
         em.close();
         emf.close();
@@ -65,6 +69,25 @@ public class ARTICVENTAS {
         em.persist(venta3);
 
         em.getTransaction().commit();
+    }
+    
+    private static void consultar(){
+        CriteriaBuilder cb = em.getCriteriaBuilder();
+        
+        CriteriaQuery<Object[]> query = cb.createQuery(Object[].class);
+        
+        Root<Articulo> u = query.from(Articulo.class);
+        query.select(cb.array(u.get("denom"), u.get("stock")));
+        query.where((cb.equal(u.get("id"), 1)));
+        
+        List<Object[]> list = em.createQuery(query).getResultList();
+        
+        // Recorro el resultado
+        for (Object[] e:list) {
+            System.out.println("Denom: " + e[0]);
+            System.out.println("con stock: " + e[1]);
+            System.out.println("");
+        }
     }
 
 }
