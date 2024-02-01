@@ -8,6 +8,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
+import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
@@ -25,7 +26,7 @@ public class ARTICVENTAS {
         conectarBD();
 
 //        insertarDatos();
-        consultar();
+        consultar2();
         
         em.close();
         emf.close();
@@ -88,6 +89,49 @@ public class ARTICVENTAS {
             System.out.println("con stock: " + e[1]);
             System.out.println("");
         }
+    }
+    
+    private static void consultar2() {
+        String sqlQuery = "SELECT a FROM Articulo a";
+        TypedQuery<Articulo> query = em.createQuery(sqlQuery, Articulo.class);
+        List<Articulo> articulos = query.getResultList();
+
+        for (Articulo articulo : articulos) {
+            System.out.println("Artículo: " + articulo.getDenom());
+
+           
+
+            int suma_univen = 0;
+            float suma_importe = 0;
+            int num_ventas = 0;
+
+            
+            for (Venta venta : articulo.getCompras()) {
+                suma_univen += venta.getUniven();
+                suma_importe += venta.getUniven() * articulo.getPvp();
+                num_ventas++;
+            }
+
+            System.out.println("Suma de unidades vendidas: " + suma_univen);
+            System.out.println("Suma de importe: " + suma_importe);
+            System.out.println("Número de ventas: " + num_ventas);
+            System.out.println("-----------------------------------------");
+        }
+
+        // Total line
+        System.out.println("Totales:");
+
+        String totalVentaQuery = "SELECT v FROM Venta v";
+        TypedQuery<Venta> totalVentaTypedQuery = em.createQuery(totalVentaQuery, Venta.class);
+        List<Venta> totalVentas = totalVentaTypedQuery.getResultList();
+
+        int total_univen = totalVentas.stream().mapToInt(Venta::getUniven).sum();
+        float total_importe = (float) totalVentas.stream().mapToDouble(v -> v.getUniven() * v.getArticulos().get(0).getPvp()).sum();
+        int total_ventas = totalVentas.size();
+
+        System.out.println("Suma total de unidades vendidas: " + total_univen);
+        System.out.println("Suma total de importe: " + total_importe);
+        System.out.println("Número total de ventas: " + total_ventas);
     }
 
 }
