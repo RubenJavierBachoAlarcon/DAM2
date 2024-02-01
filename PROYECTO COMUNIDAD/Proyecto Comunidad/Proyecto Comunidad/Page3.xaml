@@ -4,17 +4,29 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Proyecto_Comunidad"
-      mc:Ignorable="d" 
-      d:DesignHeight="450"
-      Title="Page3" Width="259">
-    <Grid Margin="0,0,3,26">
+      mc:Ignorable="d"
+      Title="Page3" Width="256" Height="504">
+    <Grid Margin="0,0,3,0">
         <TextBlock
             Foreground="#FFD4D4D4"
             FontSize="12"
             FontWeight="Medium"
             FontFamily="Montserrat"                             
-            Margin="86,80,0,330" HorizontalAlignment="Left"><Run Language="es-es" Text="Name Community"/></TextBlock>
-        <TextBox x:Name="txtUser"
+            Margin="0,120,0,365" HorizontalAlignment="Center"><Run Language="es-es" Text="Name Community"/></TextBlock>
+        <DatePicker x:Name="FOUNDING_DATE" HorizontalAlignment="Center" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Margin="0,282,0,0"/>
+        <TextBlock
+            Foreground="#FFD4D4D4"
+            FontSize="12"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                             
+            Margin="0,383,0,101" Text="Does it have a swimming pool?" HorizontalAlignment="Center"/>
+        <TextBlock
+            Foreground="#FFD4D4D4"
+            FontSize="12"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                             
+            Margin="0,188,0,299" HorizontalAlignment="Center"><Run Language="es-es" Text="Address"/></TextBlock>
+        <TextBox x:Name="NAME"
             FontSize="13"
             FontWeight="Medium"
             FontFamily="Montserrat"                            
@@ -23,30 +35,14 @@
             BorderBrush="DarkGray"
             BorderThickness="0,0,0,2"
             VerticalContentAlignment="Center"
-            Padding="20,0,0,0" Margin="27,99,9,297">
-
-            <TextBox.Background>
-                <ImageBrush ImageSource="/Images/user-icon.png"
-                    Stretch="None"
-                    AlignmentX="Left"/>
-            </TextBox.Background>
-        </TextBox>
-        <DatePicker HorizontalAlignment="Left"
-                            
-            Margin="64,226,0,0" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="Transparent"/>
+            Padding="20,0,0,0" Margin="17,144,19,339" Background="{x:Null}"/>
         <TextBlock
             Foreground="#FFD4D4D4"
             FontSize="12"
             FontWeight="Medium"
             FontFamily="Montserrat"                             
-            Margin="51,325,0,84" Text="Does it have a swimming pool?" HorizontalAlignment="Left"/>
-        <TextBlock
-            Foreground="#FFD4D4D4"
-            FontSize="12"
-            FontWeight="Medium"
-            FontFamily="Montserrat"                             
-            Margin="114,142,0,268" HorizontalAlignment="Left"><Run Language="es-es" Text="Address"/></TextBlock>
-        <TextBox x:Name="txtUser_Copiar"
+            Margin="0,260,0,227" HorizontalAlignment="Center"><Run Language="es-es" Text="Founding Date"/></TextBlock>
+        <TextBox x:Name="SIZE"
             FontSize="13"
             FontWeight="Medium"
             FontFamily="Montserrat"                            
@@ -55,52 +51,21 @@
             BorderBrush="DarkGray"
             BorderThickness="0,0,0,2"
             VerticalContentAlignment="Center"
-            Padding="20,0,0,0" Margin="27,161,9,235">
-
-            <TextBox.Background>
-                <ImageBrush ImageSource="/Images/user-icon.png"
-                    Stretch="None"
-                    AlignmentX="Left"/>
-            </TextBox.Background>
-        </TextBox>
+            Padding="20,0,0,0" Margin="137,342,75,142" Background="{x:Null}"/>
         <TextBlock
             Foreground="#FFD4D4D4"
             FontSize="12"
             FontWeight="Medium"
             FontFamily="Montserrat"                             
-            Margin="96,207,0,203" HorizontalAlignment="Left"><Run Language="es-es" Text="Founding Date"/></TextBlock>
-        <TextBox x:Name="txtUser_Copiar1"
-            FontSize="13"
-            FontWeight="Medium"
-            FontFamily="Montserrat"                            
-            Foreground="White"
-            CaretBrush="LightGray"
-            BorderBrush="DarkGray"
-            BorderThickness="0,0,0,2"
-            VerticalContentAlignment="Center"
-            Padding="20,0,0,0" Margin="115,283,97,113">
-
-            <TextBox.Background>
-                <ImageBrush ImageSource="/Images/user-icon.png"
-                    Stretch="None"
-                    AlignmentX="Left"/>
-            </TextBox.Background>
-        </TextBox>
-        <TextBlock
-            Foreground="#FFD4D4D4"
-            FontSize="12"
-            FontWeight="Medium"
-            FontFamily="Montserrat"                             
-            Margin="111,264,0,146" HorizontalAlignment="Left"><Run Text="Size"/><Run Language="es-es" Text=" (m2)"/></TextBlock>
-        <CheckBox Content="" HorizontalAlignment="Center" Margin="0,345,0,0" VerticalAlignment="Top" Width="16"/>
-        <Button x:Name="btnLogin"                          
+            Margin="51,321,0,164" HorizontalAlignment="Left"><Run Text="Size"/><Run Language="es-es" Text=" (m2)"/></TextBlock>
+        <CheckBox x:Name="HAVE_POOL" Content="" HorizontalAlignment="Center" Margin="0,473,0,0" VerticalAlignment="Top" Width="16"/>
+        <Button x:Name="SAVE"                          
             BorderThickness="0"
             Content="SAVE"
             Foreground="White"
             FontSize="12"
             FontFamily="Montserrat"
-            Cursor="Hand"
-            Click="btnLogin_Click" Margin="18,374,0,10">
+            Cursor="Hand" Margin="42,426,43,31" Click="NEXT_Click" Background="#FF462AD8">
 
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
@@ -124,5 +89,31 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
+        <TextBox x:Name="NUM_ENTRANCES"
+            FontSize="13"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                            
+            Foreground="White"
+            CaretBrush="LightGray"
+            BorderBrush="DarkGray"
+            BorderThickness="0,0,0,2"
+            VerticalContentAlignment="Center"
+            Padding="20,0,0,0" Margin="54,340,158,142" Background="{x:Null}"/>
+        <TextBlock
+            Foreground="#FFD4D4D4"
+            FontSize="12"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                             
+            Margin="116,321,0,164" HorizontalAlignment="Left"><Run Language="es-es" Text="Num Entrances"/></TextBlock>
+        <TextBox x:Name="ADDRESS"
+            FontSize="13"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                            
+            Foreground="White"
+            CaretBrush="LightGray"
+            BorderBrush="DarkGray"
+            BorderThickness="0,0,0,2"
+            VerticalContentAlignment="Center"
+            Padding="20,0,0,0" Margin="18,210,18,273" Background="{x:Null}"/>
     </Grid>
 </Page>
