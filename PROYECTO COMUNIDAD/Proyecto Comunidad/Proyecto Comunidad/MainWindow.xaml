@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Comunidad"
         mc:Ignorable="d"
-        Title="MainWindow" Height="468" Width="262" WindowStyle="None">
+        Title="MainWindow" Height="532" Width="262" WindowStyle="None">
     <Border CornerRadius="12" Margin="0,0,0,-6">
         <Border.Background>
             <ImageBrush ImageSource="/Images/neighborhood.jpg"
@@ -119,7 +119,7 @@
                         </Button.Template>
                     </Button>
                 </Grid>
-                <Frame Content="Frame" Grid.Row="1"/>
+                <Frame x:Name="MainFrame" Content="Frame" Grid.Row="1"/>
 
             </Grid>
 

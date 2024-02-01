@@ -140,5 +140,8 @@
   <ItemGroup>
     <Resource Include="Images\neighborhood.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -58,14 +58,14 @@
             FontWeight="Medium"
             FontFamily="Montserrat"                             
             Margin="51,321,0,164" HorizontalAlignment="Left"><Run Text="Size"/><Run Language="es-es" Text=" (m2)"/></TextBlock>
-        <CheckBox x:Name="HAVE_POOL" Content="" HorizontalAlignment="Center" Margin="0,473,0,0" VerticalAlignment="Top" Width="16"/>
+        <CheckBox x:Name="HAVE_POOL" Content="" HorizontalAlignment="Center" Margin="0,408,0,0" VerticalAlignment="Top" Width="16"/>
         <Button x:Name="SAVE"                          
             BorderThickness="0"
             Content="SAVE"
             Foreground="White"
             FontSize="12"
             FontFamily="Montserrat"
-            Cursor="Hand" Margin="42,426,43,31" Click="NEXT_Click" Background="#FF462AD8">
+            Cursor="Hand" Margin="42,439,43,18" Click="NEXT_Click" Background="#FF462AD8">
 
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
@@ -115,5 +115,6 @@
             BorderThickness="0,0,0,2"
             VerticalContentAlignment="Center"
             Padding="20,0,0,0" Margin="18,210,18,273" Background="{x:Null}"/>
+        <Image HorizontalAlignment="Left" Height="85" Margin="86,10,0,0" VerticalAlignment="Top" Width="90" Source="/_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png"/>
     </Grid>
 </Page>
