@@ -36,18 +36,19 @@ namespace Proyecto_Comunidad
 
         private void NEXT_Click(object sender, RoutedEventArgs e)
         {
-            
+            /**
             CommunityManage cm = new CommunityManage();
             cm.loadDataBase();
             cm.insertCommunity(new Community(NAME.Text, ADDRESS.Text, FOUNDING_DATE.Text, int.Parse(SIZE.Text), HAVE_POOL.IsChecked.Value, cm));
             GlobalVariable.numEntrancesFinal = int.Parse(NUM_ENTRANCES.Text);
             GlobalVariable.numEntrances = GlobalVariable.numEntrancesFinal;
             GlobalVariable.nameCommunity = NAME.Text;
-
+            */
             MainWindow mainWindow = (MainWindow)Application.Current.MainWindow;
             Page1 page1 = new Page1();
             mainWindow.MainFrame.Navigate(page1);
 
         }
+
     }
 }

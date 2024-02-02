@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("full-size.png")]
 
 

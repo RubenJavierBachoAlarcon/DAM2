@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto_Comunidad"
         mc:Ignorable="d"
-        Title="MainWindow" Height="532" Width="262" WindowStyle="None">
-    <Border CornerRadius="12" Margin="0,0,0,-6">
+        Title="LoginView" Height="532" Width="268"
+WindowStyle="None"
+ResizeMode="NoResize"
+WindowStartupLocation="CenterScreen"
+Background="Transparent"
+AllowsTransparency="True"
+MouseDown="Window_MouseDown">
+    <Border CornerRadius="12">
         <Border.Background>
             <ImageBrush ImageSource="/Images/neighborhood.jpg"
                 Stretch="None"/>
@@ -26,8 +32,8 @@
 
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
-                    <GradientStop Color="#008A45" Offset="0"/>
-                    <GradientStop Color="#01008A" Offset="1"/>
+                    <GradientStop Color="#FF22AB8F" Offset="0"/>
+                    <GradientStop Color="#FF178FA5" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
 
@@ -61,7 +67,7 @@
                         FontSize="16"
                         FontFamily="Montserrat"
                         Cursor="Hand"
-                        Grid.Column="1">
+                        Grid.Column="1" Click="btnMinimize_Click">
 
                         <Button.Style>
                             <Style TargetType="{x:Type Button}">
@@ -86,40 +92,39 @@
                         </Button.Template>
 
                     </Button>
-
-                    <Button x:Name="btnClose"                          
-                        BorderThickness="0"
-                        Content="X"
-                        Foreground="White"
-                        FontSize="12"
-                        FontFamily="Montserrat"
-                        Cursor="Hand"
-                        Grid.Column="2">
-
-                        <Button.Style>
-                            <Style TargetType="{x:Type Button}">
-                                <Setter Property="Background" Value="#DA34AE"/>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#C62DAE"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-
-                        <Button.Template>
-                            <ControlTemplate TargetType="{x:Type Button}">
-                                <Border Width="18" Height="18"
-                                    CornerRadius="9"
-                                    Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center"
-                                        HorizontalAlignment="Center"/>
-                                </Border>
-                            </ControlTemplate>
-                        </Button.Template>
-                    </Button>
                 </Grid>
                 <Frame x:Name="MainFrame" Content="Frame" Grid.Row="1"/>
+                <Button x:Name="btnClose"                          
+                    BorderThickness="0"
+                    Content="X"
+                    Foreground="White"
+                    FontSize="12"
+                    FontFamily="Montserrat"
+                    Cursor="Hand"
+                    Click="btnClose_Click" Margin="234,0,4,0" >
+
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#DA34AE"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#C62DAE"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="18" Height="18"
+                                CornerRadius="9"
+                                Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                    HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
 
             </Grid>
 

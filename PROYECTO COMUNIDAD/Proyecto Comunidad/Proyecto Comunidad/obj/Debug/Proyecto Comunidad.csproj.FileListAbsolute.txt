@@ -144,3 +144,34 @@ C:\Users\DAM02-05\Desktop\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Co
 C:\Users\DAM02-05\Desktop\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.GenerateResource.cache
 C:\Users\DAM02-05\Desktop\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.CoreCompileInputs.cache
 C:\Users\DAM02-05\Desktop\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.CopyComplete
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\Proyecto Comunidad.exe.config
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\Proyecto Comunidad.exe
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\Proyecto Comunidad.pdb
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\MySql.Data.dll
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\System.Memory.dll
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\System.Buffers.dll
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\bin\Debug\MySql.Data.xml
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.AssemblyReference.cache
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Styles\UIColoros.baml
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\MainWindow.g.cs
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page1.g.cs
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page2.g.cs
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page3.g.cs
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page4.g.cs
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\App.g.cs
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad_MarkupCompile.cache
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad_MarkupCompile.lref
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\MainWindow.baml
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page1.baml
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page2.baml
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page3.baml
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Page4.baml
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.g.resources
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto_Comunidad.Properties.Resources.resources
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.GenerateResource.cache
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.CoreCompileInputs.cache
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.csproj.CopyComplete
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.exe
+C:\Users\b15-06m\Desktop\git\DAM2\PROYECTO COMUNIDAD\Proyecto Comunidad\Proyecto Comunidad\obj\Debug\Proyecto Comunidad.pdb

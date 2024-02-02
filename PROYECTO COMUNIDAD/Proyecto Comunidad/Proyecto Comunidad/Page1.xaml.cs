@@ -95,7 +95,7 @@ namespace Proyecto_Comunidad
                 GlobalVariable.numEntrances--;
                 entrances.Add(new EntranceInfo(int.Parse(NUMSTAIRS.Text), int.Parse(NUMFLOORS.Text), int.Parse(NUMLETTERS.Text)));
                 idAux++;
-                NUMENTRANCES.Content = "Entrance " + idAux;
+                NUMENTRANCES.Text = "Entrance " + idAux;
 
                 NUMSTAIRS.Text = "";
                 NUMFLOORS.Text = "";
@@ -107,7 +107,7 @@ namespace Proyecto_Comunidad
                 GlobalVariable.numEntrances--;
                 entrances.Add(new EntranceInfo(int.Parse(NUMSTAIRS.Text), int.Parse(NUMFLOORS.Text), char.Parse(NUMLETTERS.Text)));
                 idAux++;
-                NUMENTRANCES.Content = "Entrance " + idAux;
+                NUMENTRANCES.Text = "Entrance " + idAux;
 
                 NUMSTAIRS.Text = "";
                 NUMFLOORS.Text = "";

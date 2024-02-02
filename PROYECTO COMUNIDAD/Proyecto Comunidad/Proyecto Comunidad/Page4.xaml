@@ -6,38 +6,27 @@
       xmlns:local="clr-namespace:Proyecto_Comunidad"
       mc:Ignorable="d" 
       d:DesignHeight="450"
-      Title="Page4" Width="270">
-
+      Title="Page4" Width="256" Height="504">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="175*"/>
-            <ColumnDefinition Width="9*"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <GroupBox Header="Entrance Data" BorderBrush="#FFF248B1" BorderThickness="3,3,3,3" Margin="0,0,7,10" Grid.ColumnSpan="2">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Label x:Name="NUMENTRANCES" Content="Dependencies" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20"/>
-                <Label Content="GateKeeper's apartement" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontSize="14"/>
-                <CheckBox x:Name="GATE" Content="" HorizontalAlignment="Left" Margin="210,75,0,0" VerticalAlignment="Top"/>
-                <Label Content="Communal showers and toilets" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" FontSize="14"/>
-                <CheckBox x:Name="SHOWERS" Content="" HorizontalAlignment="Left" Margin="210,109,0,0" VerticalAlignment="Top"/>
-                <Label Content="Communal play area" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" FontSize="14"/>
-                <CheckBox x:Name="PLAYAREA" Content="" HorizontalAlignment="Left" Margin="210,143,0,0" VerticalAlignment="Top"/>
-                <Label Content="Communal Exercice area" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" FontSize="14"/>
-                <CheckBox x:Name="GYM" Content="" HorizontalAlignment="Left" Margin="210,177,0,0" VerticalAlignment="Top"/>
-                <Label Content="Communal Metting room" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" FontSize="14"/>
-                <CheckBox x:Name="MEETING" Content="" HorizontalAlignment="Left" Margin="210,217,0,0" VerticalAlignment="Top"/>
-                <Label Content="Communal Tennis Court" HorizontalAlignment="Left" Margin="10,243,0,0" VerticalAlignment="Top" FontSize="14"/>
-                <CheckBox x:Name="TENNIS" Content="" HorizontalAlignment="Left" Margin="210,251,0,0" VerticalAlignment="Top"/>
-                <Label Content="Communal Padel Court" HorizontalAlignment="Left" Margin="10,277,0,0" VerticalAlignment="Top" FontSize="14"/>
-                <CheckBox x:Name="PADEL" Content="" HorizontalAlignment="Left" Margin="210,285,0,0" VerticalAlignment="Top"/>
-                <Label Content="GateKeeper's apartement" HorizontalAlignment="Left" Margin="10,311,0,0" VerticalAlignment="Top" FontSize="14"/>
-                <CheckBox Content="" HorizontalAlignment="Left" Margin="210,319,0,0" VerticalAlignment="Top"/>
-                <Button Content="NEXT" HorizontalAlignment="Center" Margin="0,345,0,0" VerticalAlignment="Top" Width="231" Click="Button_Click"/>
-            </Grid>
-        </GroupBox>
-
+        <Label x:Name="NUMENTRANCES" Content="Dependencies" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" FontFamily="Montserrat"  />
+        <Label Content="GateKeeper's apartement" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
+        <CheckBox x:Name="GATE" Content="" HorizontalAlignment="Left" Margin="210,75,0,0" VerticalAlignment="Top"/>
+        <Label Content="Communal showers and toilets" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
+        <CheckBox x:Name="SHOWERS" Content="" HorizontalAlignment="Left" Margin="210,109,0,0" VerticalAlignment="Top"/>
+        <Label Content="Communal play area" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
+        <CheckBox x:Name="PLAYAREA" Content="" HorizontalAlignment="Left" Margin="210,143,0,0" VerticalAlignment="Top"/>
+        <Label Content="Communal Exercice area" HorizontalAlignment="Left" Margin="10,169,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
+        <CheckBox x:Name="GYM" Content="" HorizontalAlignment="Left" Margin="210,177,0,0" VerticalAlignment="Top"/>
+        <Label Content="Communal Metting room" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
+        <CheckBox x:Name="MEETING" Content="" HorizontalAlignment="Left" Margin="210,217,0,0" VerticalAlignment="Top"/>
+        <Label Content="Communal Tennis Court" HorizontalAlignment="Left" Margin="10,243,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
+        <CheckBox x:Name="TENNIS" Content="" HorizontalAlignment="Left" Margin="210,251,0,0" VerticalAlignment="Top"/>
+        <Label Content="Communal Padel Court" HorizontalAlignment="Left" Margin="10,277,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
+        <CheckBox x:Name="PADEL" Content="" HorizontalAlignment="Left" Margin="210,285,0,0" VerticalAlignment="Top"/>
+        <Label Content="GateKeeper's apartement" HorizontalAlignment="Left" Margin="10,311,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="210,319,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Page>

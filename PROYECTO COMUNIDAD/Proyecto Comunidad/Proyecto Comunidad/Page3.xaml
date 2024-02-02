@@ -12,20 +12,20 @@
             FontSize="12"
             FontWeight="Medium"
             FontFamily="Montserrat"                             
-            Margin="0,120,0,365" HorizontalAlignment="Center"><Run Language="es-es" Text="Name Community"/></TextBlock>
-        <DatePicker x:Name="FOUNDING_DATE" HorizontalAlignment="Center" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Margin="0,282,0,0"/>
+            Margin="18,120,0,365" HorizontalAlignment="Left"><Run Language="es-es" Text="Name Community"/></TextBlock>
+        <DatePicker x:Name="FOUNDING_DATE" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}" Background="{x:Null}" Margin="18,282,0,0"/>
         <TextBlock
             Foreground="#FFD4D4D4"
             FontSize="12"
             FontWeight="Medium"
             FontFamily="Montserrat"                             
-            Margin="0,383,0,101" Text="Does it have a swimming pool?" HorizontalAlignment="Center"/>
+            Margin="18,383,0,101" Text="Does it have a swimming pool?" HorizontalAlignment="Left"/>
         <TextBlock
             Foreground="#FFD4D4D4"
             FontSize="12"
             FontWeight="Medium"
             FontFamily="Montserrat"                             
-            Margin="0,188,0,299" HorizontalAlignment="Center"><Run Language="es-es" Text="Address"/></TextBlock>
+            Margin="18,188,0,299" HorizontalAlignment="Left"><Run Language="es-es" Text="Address"/></TextBlock>
         <TextBox x:Name="NAME"
             FontSize="13"
             FontWeight="Medium"
@@ -35,13 +35,19 @@
             BorderBrush="DarkGray"
             BorderThickness="0,0,0,2"
             VerticalContentAlignment="Center"
-            Padding="20,0,0,0" Margin="17,144,19,339" Background="{x:Null}"/>
+            Padding="20,0,0,0" Margin="17,144,19,339">
+            <TextBox.Background>
+                <ImageBrush ImageSource="/community.png"  
+                            Stretch="Uniform"
+                            AlignmentX="Left" TileMode="None"/>
+            </TextBox.Background>
+        </TextBox>
         <TextBlock
             Foreground="#FFD4D4D4"
             FontSize="12"
             FontWeight="Medium"
             FontFamily="Montserrat"                             
-            Margin="0,260,0,227" HorizontalAlignment="Center"><Run Language="es-es" Text="Founding Date"/></TextBlock>
+            Margin="21,260,0,227" HorizontalAlignment="Left"><Run Language="es-es" Text="Founding Date"/></TextBlock>
         <TextBox x:Name="SIZE"
             FontSize="13"
             FontWeight="Medium"
@@ -51,21 +57,71 @@
             BorderBrush="DarkGray"
             BorderThickness="0,0,0,2"
             VerticalContentAlignment="Center"
-            Padding="20,0,0,0" Margin="137,342,75,142" Background="{x:Null}"/>
+            Padding="20,0,0,0" Margin="106,341,67,143">
+            <TextBox.Background>
+                <ImageBrush Stretch="Uniform" AlignmentX="Left"/>
+            </TextBox.Background>
+        </TextBox>
         <TextBlock
             Foreground="#FFD4D4D4"
             FontSize="12"
             FontWeight="Medium"
             FontFamily="Montserrat"                             
-            Margin="51,321,0,164" HorizontalAlignment="Left"><Run Text="Size"/><Run Language="es-es" Text=" (m2)"/></TextBlock>
-        <CheckBox x:Name="HAVE_POOL" Content="" HorizontalAlignment="Center" Margin="0,408,0,0" VerticalAlignment="Top" Width="16"/>
-        <Button x:Name="SAVE"                          
+            Margin="21,321,0,164" HorizontalAlignment="Left"><Run Text="Size"/><Run Language="es-es" Text=" (m2)"/></TextBlock>
+        <CheckBox x:Name="HAVE_POOL" Content="" HorizontalAlignment="Left" Margin="200,383,0,0" VerticalAlignment="Top" Width="16"/>
+
+        <TextBox x:Name="NUM_ENTRANCES"
+            FontSize="13"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                            
+            Foreground="White"
+            CaretBrush="LightGray"
+            BorderBrush="DarkGray"
+            BorderThickness="0,0,0,2"
+            VerticalContentAlignment="Center"
+            Padding="25,0,0,0" Margin="21,340,182,142">
+            <TextBox.Background>
+                <ImageBrush Stretch="Uniform" AlignmentX="Left" TileMode="None" ImageSource="/full-size.png">
+                    <ImageBrush.RelativeTransform>
+                        <TransformGroup>
+                            <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1" ScaleY="1"/>
+                            <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                            <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                            <TranslateTransform X="0"/>
+                        </TransformGroup>
+                    </ImageBrush.RelativeTransform>
+                </ImageBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBlock
+            Foreground="#FFD4D4D4"
+            FontSize="12"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                             
+            Margin="103,320,0,165" HorizontalAlignment="Left"><Run Language="es-es" Text="Num Entrances"/></TextBlock>
+        <TextBox x:Name="ADDRESS"
+            FontSize="13"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                            
+            Foreground="White"
+            CaretBrush="LightGray"
+            BorderBrush="DarkGray"
+            BorderThickness="0,0,0,2"
+            VerticalContentAlignment="Center"
+            Padding="20,0,0,0" Margin="18,210,18,273">
+            <TextBox.Background>
+                <ImageBrush Stretch="Uniform" AlignmentX="Left" ImageSource="/maps-and-flags.png"/>
+            </TextBox.Background>
+        </TextBox>
+        <Image HorizontalAlignment="Left" Height="103" Margin="77,1,0,0" VerticalAlignment="Top" Width="108" Source="/_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png"/>
+        <Button x:Name="NEXT"                          
             BorderThickness="0"
-            Content="SAVE"
+            Content="NEXT"
             Foreground="White"
             FontSize="12"
             FontFamily="Montserrat"
-            Cursor="Hand" Margin="42,439,43,18" Click="NEXT_Click" Background="#FF462AD8">
+            Cursor="Hand"
+            Click="NEXT_Click" Margin="16,425,17,39">
 
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
@@ -89,32 +145,5 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <TextBox x:Name="NUM_ENTRANCES"
-            FontSize="13"
-            FontWeight="Medium"
-            FontFamily="Montserrat"                            
-            Foreground="White"
-            CaretBrush="LightGray"
-            BorderBrush="DarkGray"
-            BorderThickness="0,0,0,2"
-            VerticalContentAlignment="Center"
-            Padding="20,0,0,0" Margin="54,340,158,142" Background="{x:Null}"/>
-        <TextBlock
-            Foreground="#FFD4D4D4"
-            FontSize="12"
-            FontWeight="Medium"
-            FontFamily="Montserrat"                             
-            Margin="116,321,0,164" HorizontalAlignment="Left"><Run Language="es-es" Text="Num Entrances"/></TextBlock>
-        <TextBox x:Name="ADDRESS"
-            FontSize="13"
-            FontWeight="Medium"
-            FontFamily="Montserrat"                            
-            Foreground="White"
-            CaretBrush="LightGray"
-            BorderBrush="DarkGray"
-            BorderThickness="0,0,0,2"
-            VerticalContentAlignment="Center"
-            Padding="20,0,0,0" Margin="18,210,18,273" Background="{x:Null}"/>
-        <Image HorizontalAlignment="Left" Height="85" Margin="86,10,0,0" VerticalAlignment="Top" Width="90" Source="/_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png"/>
     </Grid>
 </Page>

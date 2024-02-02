@@ -25,8 +25,7 @@ public class ARTICVENTAS {
     public static void main(String[] args) {
         conectarBD();
 
-//        insertarDatos();
-        consultar2();
+        insertarDatos();
         
         em.close();
         emf.close();

@@ -141,7 +141,35 @@
     <Resource Include="Images\neighborhood.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\community.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\maps-and-flags.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\enter.png" />
+    <Resource Include="Images\full-size.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include=".png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="community.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="enter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="maps-and-flags.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="full-size.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
