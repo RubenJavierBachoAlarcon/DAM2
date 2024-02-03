@@ -1,1 +1,0 @@
-now i want the stairs make by numbers the first one (first column 1, second column 2...) the second one (last diagonal 1, pre-last diagonal 2...) the third one ( last column 1, pre-last column 2...) the fourth one ( first diagonal 1, second diagonal 2...)

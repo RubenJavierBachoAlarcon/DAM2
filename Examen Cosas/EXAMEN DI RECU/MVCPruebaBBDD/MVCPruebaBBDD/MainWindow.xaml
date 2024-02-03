@@ -1,0 +1,39 @@
+﻿<Window x:Class="MVCPruebaBBDD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVCPruebaBBDD"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <GroupBox Header="Person Manager" BorderBrush="Black" BorderThickness="3,3,3,3">
+        <Grid>
+            <GroupBox Header="Create and Delete Person" Margin="10,10,375,10" BorderBrush="Black" BorderThickness="1.5,1.5,1.5,1.5">
+                <Grid>
+                    <Button x:Name="NEW" Content="NEW" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="10,10,0,0" FontWeight="Bold" Click="NEW_Click"/>
+                    <Button x:Name="DELETE" Content="DELETE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Margin="85,10,0,0" FontWeight="Bold" Click="DELETE_Click"/>
+                    <DataGrid x:Name="dgPerson" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,35,9,10" AutoGenerateColumns="False" CanUserAddRows="False" SelectionChanged="dgPerson_SelectionChanged" CanUserDeleteRows="False" CanUserResizeRows="False" CanUserReorderColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="FIRST NAME" Binding="{Binding firstName}"/>
+                            <DataGridTextColumn Header="LAST NAME" Foreground="Black" Binding="{Binding lastName}"/>
+                            <DataGridTextColumn Binding="{Binding birthDate}" Header="BIRTH DATE"/>
+                            <DataGridCheckBoxColumn Header="IS STUDENT" Binding="{Binding isStudent}" IsThreeState="True"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </GroupBox>
+            <GroupBox Header="Edit Person" Margin="418,10,10,10" BorderBrush="Black" BorderThickness="1.5,1.5,1.5,1.5">
+                <Grid>
+                    <Button x:Name="SAVE" Content="SAVE" HorizontalAlignment="Center" VerticalAlignment="Top" Width="212" Margin="0,322,0,0" FontWeight="Bold" Click="SAVE_Click"/>
+                    <TextBox x:Name="FIRSTNAME" HorizontalAlignment="Center" Margin="0,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" ToolTip="Person Name"/>
+                    <Label Content="First Name" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <TextBox x:Name="LASTNAME" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" ToolTip="Person Name" Height="18" Margin="0,108,0,0"/>
+                    <Label Content="Last Name" HorizontalAlignment="Center" Margin="0,77,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <CheckBox x:Name="ISSTUDENT" Content="Is Student?" HorizontalAlignment="Center" Margin="0,241,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                    <DatePicker x:Name="BIRTHDATE" HorizontalAlignment="Center" Margin="0,184,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Birth Date" HorizontalAlignment="Center" Margin="0,144,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+                </Grid>
+            </GroupBox>
+        </Grid>
+    </GroupBox>
+</Window>

@@ -107,7 +107,7 @@ public class ARTICVENTAS {
                 suma_importe += venta.getUniven() * articulo.getPvp();
                 num_ventas++;
             }
-
+            
             System.out.println("Suma de unidades vendidas: " + suma_univen);
             System.out.println("Suma de importe: " + suma_importe);
             System.out.println("Número de ventas: " + num_ventas);

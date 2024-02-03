@@ -20,3 +20,23 @@ C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\Prueba\Prueba\obj\Debug\Prueba.cspro
 C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\Prueba\Prueba\obj\Debug\Prueba.csproj.CopyComplete
 C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\Prueba\Prueba\obj\Debug\Prueba.exe
 C:\Users\javie\Desktop\gitDAM2\DI\Proyectos\Prueba\Prueba\obj\Debug\Prueba.pdb
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\bin\Debug\Prueba.exe.config
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\bin\Debug\Prueba.exe
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\bin\Debug\Prueba.pdb
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\bin\Debug\System.Memory.dll
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\bin\Debug\System.Buffers.dll
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba.csproj.AssemblyReference.cache
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\View\MainWindow.g.cs
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\App.g.cs
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba_MarkupCompile.cache
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba_MarkupCompile.lref
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\View\MainWindow.baml
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba.g.resources
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba.Properties.Resources.resources
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba.csproj.GenerateResource.cache
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba.csproj.CopyComplete
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba.exe
+C:\Users\javie\Desktop\DAM2\Examen Cosas\Prueba\Prueba\obj\Debug\Prueba.pdb
