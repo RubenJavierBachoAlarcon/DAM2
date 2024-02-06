@@ -87,8 +87,6 @@ namespace Proyecto_Comunidad
                 MainWindow mainWindow = (MainWindow)Application.Current.MainWindow;
                 Page4 page4 = new Page4();
                 mainWindow.MainFrame.Navigate(page4);
-
-
             }
             if (GlobalVariable.numEntrances == 1)
             {

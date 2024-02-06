@@ -28,5 +28,36 @@
         <CheckBox x:Name="PADEL" Content="" HorizontalAlignment="Left" Margin="210,285,0,0" VerticalAlignment="Top"/>
         <Label Content="GateKeeper's apartement" HorizontalAlignment="Left" Margin="10,311,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Montserrat"/>
         <CheckBox Content="" HorizontalAlignment="Left" Margin="210,319,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="NEXT"                          
+            BorderThickness="0"
+            Content="SAVE"
+            Foreground="White"
+            FontSize="12"
+            FontFamily="Montserrat"
+            Cursor="Hand"
+            Click="NEXT_Click" Margin="18,400,18,10">
+
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#462AD8"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#28AEED"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Width="150" Height="40"
+                        CornerRadius="20"
+                        Background="{TemplateBinding Background}">
+                        <ContentPresenter VerticalAlignment="Center"
+                            HorizontalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
     </Grid>
 </Page>

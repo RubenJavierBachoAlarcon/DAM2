@@ -48,7 +48,7 @@
             FontWeight="Medium"
             FontFamily="Montserrat"                             
             Margin="21,260,0,227" HorizontalAlignment="Left"><Run Language="es-es" Text="Founding Date"/></TextBlock>
-        <TextBox x:Name="SIZE"
+        <TextBox x:Name="NUM_ENTRANCES"
             FontSize="13"
             FontWeight="Medium"
             FontFamily="Montserrat"                            
@@ -70,7 +70,7 @@
             Margin="21,321,0,164" HorizontalAlignment="Left"><Run Text="Size"/><Run Language="es-es" Text=" (m2)"/></TextBlock>
         <CheckBox x:Name="HAVE_POOL" Content="" HorizontalAlignment="Left" Margin="200,383,0,0" VerticalAlignment="Top" Width="16"/>
 
-        <TextBox x:Name="NUM_ENTRANCES"
+        <TextBox x:Name="SIZE"
             FontSize="13"
             FontWeight="Medium"
             FontFamily="Montserrat"                            
