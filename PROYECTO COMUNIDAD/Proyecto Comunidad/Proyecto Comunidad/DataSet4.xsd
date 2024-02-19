@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet4" targetNamespace="http://tempuri.org/DataSet4.xsd" xmlns:mstns="http://tempuri.org/DataSet4.xsd" xmlns="http://tempuri.org/DataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet4" msprop:Generator_DataSetName="DataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="community_info" msprop:Generator_RowEvHandlerName="community_infoRowChangeEventHandler" msprop:Generator_RowDeletedName="community_infoRowDeleted" msprop:Generator_RowDeletingName="community_infoRowDeleting" msprop:Generator_RowEvArgName="community_infoRowChangeEvent" msprop:Generator_TablePropName="community_info" msprop:Generator_RowChangedName="community_infoRowChanged" msprop:Generator_RowChangingName="community_infoRowChanging" msprop:Generator_TableClassName="community_infoDataTable" msprop:Generator_RowClassName="community_infoRow" msprop:Generator_TableVarName="tablecommunity_info" msprop:Generator_UserTableName="community_info">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Have_x0020_shower" msprop:Generator_ColumnPropNameInRow="Have_shower" msprop:Generator_ColumnPropNameInTable="Have_showerColumn" msprop:Generator_ColumnVarNameInTable="columnHave_shower" msprop:Generator_UserColumnName="Have shower" type="xs:string" minOccurs="0" />
+              <xs:element name="Have_x0020_playground" msprop:Generator_ColumnPropNameInRow="Have_playground" msprop:Generator_ColumnPropNameInTable="Have_playgroundColumn" msprop:Generator_ColumnVarNameInTable="columnHave_playground" msprop:Generator_UserColumnName="Have playground" type="xs:string" minOccurs="0" />
+              <xs:element name="Have_x0020_gym" msprop:Generator_ColumnPropNameInRow="Have_gym" msprop:Generator_ColumnPropNameInTable="Have_gymColumn" msprop:Generator_ColumnVarNameInTable="columnHave_gym" msprop:Generator_UserColumnName="Have gym" type="xs:string" minOccurs="0" />
+              <xs:element name="Have_x0020_meeting_x0020_room" msprop:Generator_ColumnPropNameInRow="Have_meeting_room" msprop:Generator_ColumnPropNameInTable="Have_meeting_roomColumn" msprop:Generator_ColumnVarNameInTable="columnHave_meeting_room" msprop:Generator_UserColumnName="Have meeting room" type="xs:string" minOccurs="0" />
+              <xs:element name="Have_x0020_tennis_x0020_court" msprop:Generator_ColumnPropNameInRow="Have_tennis_court" msprop:Generator_ColumnPropNameInTable="Have_tennis_courtColumn" msprop:Generator_ColumnVarNameInTable="columnHave_tennis_court" msprop:Generator_UserColumnName="Have tennis court" type="xs:string" minOccurs="0" />
+              <xs:element name="Have_x0020_padel_x0020_court" msprop:Generator_ColumnPropNameInRow="Have_padel_court" msprop:Generator_ColumnPropNameInTable="Have_padel_courtColumn" msprop:Generator_ColumnVarNameInTable="columnHave_padel_court" msprop:Generator_UserColumnName="Have padel court" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Proyecto Comunidad</name>
+    </assembly>
+    <members>
+        <member name="T:Proyecto_Comunidad.App">
+            <summary>
+            Lógica de interacción para App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Proyecto_Comunidad.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Proyecto_Comunidad.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.CommunityInfo">
+            <summary>
+            Interaction logic for CommunityInfo.xaml
+            </summary>
+            <summary>
+            CommunityInfo
+            </summary>
+        </member>
+        <member name="M:Proyecto_Comunidad.CommunityInfo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet1">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet1.ownersDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet1.ownersRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet1.ownersRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet3">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet3.entrancesDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet3.entrancesRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet3.entrancesRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet4">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet4.community_infoDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet4.community_infoRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.DataSet4.community_infoRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.Page3">
+            <summary>
+            Interaction logic for Page3.xaml
+            </summary>
+            <summary>
+            Page3
+            </summary>
+        </member>
+        <member name="M:Proyecto_Comunidad.Page3.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.Page4">
+            <summary>
+            Page4
+            </summary>
+        </member>
+        <member name="M:Proyecto_Comunidad.Page4.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.MainWindow">
+            <summary>
+            Lógica de interacción para MainWindow.xaml
+            </summary>
+            
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:Proyecto_Comunidad.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.Page1">
+            <summary>
+            Lógica de interacción para Page1.xaml
+            </summary>
+            <summary>
+            Page1
+            </summary>
+        </member>
+        <member name="M:Proyecto_Comunidad.Page1.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Proyecto_Comunidad.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Proyecto_Comunidad.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Proyecto_Comunidad.Properties.Resources.Culture">
+            <summary>
+              Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos usando esta clase de recursos fuertemente tipados.
+            </summary>
+        </member>
+    </members>
+</doc>
