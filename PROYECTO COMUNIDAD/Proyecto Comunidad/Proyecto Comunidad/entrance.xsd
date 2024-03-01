@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="entrance" targetNamespace="http://tempuri.org/entrance.xsd" xmlns:mstns="http://tempuri.org/entrance.xsd" xmlns="http://tempuri.org/entrance.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="entrance" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="entrance" msprop:Generator_DataSetName="entrance">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="entrances" msprop:Generator_RowEvHandlerName="entrancesRowChangeEventHandler" msprop:Generator_RowDeletedName="entrancesRowDeleted" msprop:Generator_RowDeletingName="entrancesRowDeleting" msprop:Generator_RowEvArgName="entrancesRowChangeEvent" msprop:Generator_TablePropName="entrances" msprop:Generator_RowChangedName="entrancesRowChanged" msprop:Generator_RowChangingName="entrancesRowChanging" msprop:Generator_TableClassName="entrancesDataTable" msprop:Generator_RowClassName="entrancesRow" msprop:Generator_TableVarName="tableentrances" msprop:Generator_UserTableName="entrances">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="stair" msprop:Generator_ColumnPropNameInRow="stair" msprop:Generator_ColumnPropNameInTable="stairColumn" msprop:Generator_ColumnVarNameInTable="columnstair" msprop:Generator_UserColumnName="stair" type="xs:string" minOccurs="0" />
+              <xs:element name="floor" msprop:Generator_ColumnPropNameInRow="floor" msprop:Generator_ColumnPropNameInTable="floorColumn" msprop:Generator_ColumnVarNameInTable="columnfloor" msprop:Generator_UserColumnName="floor" type="xs:string" minOccurs="0" />
+              <xs:element name="letter" msprop:Generator_ColumnPropNameInRow="letter" msprop:Generator_ColumnPropNameInTable="letterColumn" msprop:Generator_ColumnVarNameInTable="columnletter" msprop:Generator_UserColumnName="letter" type="xs:string" minOccurs="0" />
+              <xs:element name="amount_x0020_owners" msprop:Generator_ColumnPropNameInRow="amount_owners" msprop:Generator_ColumnPropNameInTable="amount_ownersColumn" msprop:Generator_ColumnVarNameInTable="columnamount_owners" msprop:Generator_UserColumnName="amount owners" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

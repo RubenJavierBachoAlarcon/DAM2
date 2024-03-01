@@ -37,7 +37,7 @@
             VerticalContentAlignment="Center"
             Padding="20,0,0,0" Margin="17,144,19,339">
             <TextBox.Background>
-                <ImageBrush ImageSource="/community.png"  
+                <ImageBrush ImageSource="Images/community.png"  
                             Stretch="Uniform"
                             AlignmentX="Left" TileMode="None"/>
             </TextBox.Background>
@@ -81,7 +81,7 @@
             VerticalContentAlignment="Center"
             Padding="25,0,0,0" Margin="21,340,182,142">
             <TextBox.Background>
-                <ImageBrush Stretch="Uniform" AlignmentX="Left" TileMode="None" ImageSource="/full-size.png">
+                <ImageBrush Stretch="Uniform" AlignmentX="Left" TileMode="None" ImageSource="Images/full-size.png">
                     <ImageBrush.RelativeTransform>
                         <TransformGroup>
                             <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1" ScaleY="1"/>
@@ -110,10 +110,10 @@
             VerticalContentAlignment="Center"
             Padding="20,0,0,0" Margin="18,210,18,273">
             <TextBox.Background>
-                <ImageBrush Stretch="Uniform" AlignmentX="Left" ImageSource="/maps-and-flags.png"/>
+                <ImageBrush Stretch="Uniform" AlignmentX="Left" ImageSource="Images/maps-and-flags.png"/>
             </TextBox.Background>
         </TextBox>
-        <Image HorizontalAlignment="Left" Height="103" Margin="77,1,0,0" VerticalAlignment="Top" Width="108" Source="/_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png"/>
+        <Image HorizontalAlignment="Left" Height="103" Margin="77,1,0,0" VerticalAlignment="Top" Width="108" Source="/Images/_3940e0f6-d7a5-43c6-b558-8101cf4bcd1a-removebg-preview.png"/>
         <Button x:Name="NEXT"                          
             BorderThickness="0"
             Content="NEXT"

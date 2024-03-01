@@ -30,12 +30,20 @@
         <CheckBox Content="" HorizontalAlignment="Left" Margin="210,319,0,0" VerticalAlignment="Top"/>
         <Button x:Name="NEXT"                          
             BorderThickness="0"
+<<<<<<< HEAD
             Content="SAVE"
+=======
+            Content="NEXT"
+>>>>>>> Interfaz
             Foreground="White"
             FontSize="12"
             FontFamily="Montserrat"
             Cursor="Hand"
+<<<<<<< HEAD
             Click="NEXT_Click" Margin="18,400,18,10">
+=======
+            Click="NEXT_Click" Margin="14,389,22,21">
+>>>>>>> Interfaz
 
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
